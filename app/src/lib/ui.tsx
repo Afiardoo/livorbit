@@ -2,7 +2,9 @@ import type { CSSProperties, ReactNode } from "react";
 import type { Level } from "../data/mission";
 
 const BASE = import.meta.env.BASE_URL;
-export const asset = (path: string) => `${BASE}${path}`;
+// Absolute URL: icons are used inside a CSS mask variable, and a relative url() there would resolve against the
+// stylesheet folder (assets/) instead of the site root once deployed under a sub-path.
+export const asset = (path: string) => new URL(`${BASE}${path}`, document.baseURI).href;
 
 export const LEVEL_COLOR: Record<Level, string> = {
   NOMINAL: "var(--color-nominal)", CAUTION: "var(--color-caution)", WARNING: "var(--color-warning)", NODATA: "var(--color-muted)",

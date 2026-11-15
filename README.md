@@ -30,6 +30,7 @@ the doctor is up to 24 minutes away (one way), the astronaut is not a doctor, an
 - **NASA Human Research Program:** the 5 hazards, 17 risk pages and evidence reports (bone, cardiovascular, sleep, behavioral health, immune, SANS, radiation).
 - **NASA-STD-3001 Vol. 1 Rev C:** the 600 mSv career radiation limit and the surface dose rate.
 - **ISS CHeCS Medical Hardware Catalog (NASA, 2011):** the devices and measurement ranges the crew uses.
+- **NASA DONKI:** real space weather of the May 2024 solar storm (G5 geomagnetic storm, 14 solar particle events), replayed in the simulated mission.
 - **CSA:** Bio-Monitor / Astroskin smart shirt, and radiation monitoring.
 - The challenge is authored by the **Brazilian Space Agency**.
 

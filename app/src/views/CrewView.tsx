@@ -1,13 +1,13 @@
 import { useMemo } from "react";
 import { Area, AreaChart, ResponsiveContainer, YAxis } from "recharts";
 import { useApp } from "../state";
-import { CREW, FIRST_DAY, phaseAt, type VitalRecord } from "../data/mission";
+import { CREW, FIRST_DAY, MISSION, phaseAt, spaceWeatherAt, type VitalRecord } from "../data/mission";
 import { assess, series, type Assessment } from "../engine/assess";
 import { summary, topInsights } from "../engine/insights";
 import { INDICATOR } from "../data/content";
 import { asset, dayLabel, Icon, LEVEL_COLOR, Status } from "../lib/ui";
 
-export const ENGINE_NAME = { A: "Personal normal", B: "Trend", C: "Mission twin", D: "NEWS2", range: "Threshold" } as const;
+export const ENGINE_NAME = { A: "Personal normal", B: "Trend", C: "Mission twin", D: "NEWS2", I: "Immune index", range: "Threshold" } as const;
 
 export function CrewView() {
   const { day, overrides, open } = useApp();
@@ -30,6 +30,8 @@ export function CrewView() {
           <p className="mt-4 text-[15px] leading-relaxed text-moon/75">Each astronaut is compared with their own normal, every day, so small changes are seen long before they become emergencies.</p>
         </div>
       </section>
+
+      <SpaceWeatherBanner day={day} />
 
       {emergency && (
         <button onClick={() => open("emergency", emergency.a.id)} className="pulse-warning flex w-full items-center gap-4 rounded-2xl bg-warning p-4 text-left text-ink">
@@ -71,7 +73,10 @@ function CrewCard({ id, role, r, onOpen }: { id: string; role: string; r: Assess
         </div>
         <Status level={r.overall} />
       </div>
-      <p className="min-h-[3rem] px-5 pt-4 text-[15px] leading-snug">{summary(r)}</p>
+      <p className="min-h-[3rem] px-5 pt-4 text-[15px] leading-snug">
+        {r.sensor.length > 0 && <span className="mr-2 rounded-full px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-ink" style={{ background: "var(--color-lavender)" }}>Check sensor</span>}
+        {summary(r)}
+      </p>
       <div className="flex items-end justify-between px-5 pt-2">
         <div className="label">{ind?.name ?? "Heart rate"} · last 30 days</div>
         <div className="num text-lg">{ind?.step && ind.step < 1 ? value.toFixed(1) : value} <span className="text-xs text-muted">{ind?.unit}</span></div>
@@ -91,5 +96,23 @@ function CrewCard({ id, role, r, onOpen }: { id: string; role: string; r: Assess
         </ResponsiveContainer>
       </div>
     </button>
+  );
+}
+
+function SpaceWeatherBanner({ day }: { day: number }) {
+  const w = spaceWeatherAt(day);
+  const cw = MISSION.clima_espacial;
+  const inWindow = day >= cw.dia_inicio_replay && day <= cw.dia_inicio_replay + 8;
+  if (!inWindow || !w.recentSep) return null;
+  const kp = w.gst.length ? Math.max(...w.gst.map((g) => g.kp_max)) : null;
+  return (
+    <div className="flex flex-wrap items-center gap-4 rounded-2xl border px-5 py-4" style={{ borderColor: "var(--color-caution)", background: "color-mix(in srgb, var(--color-caution) 10%, transparent)" }}>
+      <Icon name="solar-storm" size={30} style={{ color: "var(--color-caution)" }} />
+      <div className="min-w-[220px] flex-1">
+        <div className="font-bold">Solar storm{w.sep.length ? ` · ${w.sep.length} solar particle event${w.sep.length > 1 ? "s" : ""} today` : " · particle radiation elevated"}{kp ? ` · geomagnetic Kp ${kp}` : ""}</div>
+        <div className="text-sm text-moon/75">Whole crew: go to the storm shelter during the peak, postpone spacewalks, log dosimeter readings. Notify Earth.</div>
+      </div>
+      <span className="rounded-full border border-border px-2.5 py-1 font-mono text-[10px] uppercase tracking-wider text-life" title={cw.fuente}>Real NASA DONKI · May 2024 replay</span>
+    </div>
   );
 }

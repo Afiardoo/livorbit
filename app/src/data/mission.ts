@@ -14,6 +14,7 @@ export interface VitalRecord {
   hueso_pct_modelado: number; radiacion_acumulada_mSv: number;
   consciente: boolean; dolor_toracico: boolean; oxigeno: boolean;
   retraso_com_s: number; sintetico: boolean;
+  calidad: "ok" | "electrode_off" | "motion" | "temp_mismatch"; temp_2: number | null;
 }
 export interface BloodRecord {
   astronauta: string; dia: number; variable: string; valor: number; unidad: string; dispositivo: string; sintetico: boolean;
@@ -24,6 +25,11 @@ export interface Astronaut {
 }
 export interface MissionEvent { astronauta: string; dia_inicio: number; dia_evento: number; tipo: string; titulo: string; descripcion: string }
 export interface Assumption { tema: string; valor: string; fuente: string; tipo: string }
+export interface SpaceWeather {
+  dia_inicio_replay: number; fecha_inicio_replay: string; fuente: string;
+  tormentas_geomagneticas: { inicio: string; kp_max: number; id: string; link?: string }[];
+  eventos_particulas_solares: { hora: string; instrumento: string; id: string; link?: string }[];
+}
 export interface Phase { id: string; desde: number; hasta: number; entorno: string; gravedad_g: number; radiacion_mSv_dia: number }
 
 interface MissionFile {
@@ -33,6 +39,7 @@ interface MissionFile {
   variables_sangre: Record<string, { nombre: string; unidad: string; rango: [number | null, number | null] }>;
   eventos: MissionEvent[];
   supuestos: Assumption[];
+  clima_espacial: SpaceWeather;
   vitales: VitalRecord[];
   sangre: BloodRecord[];
 }
@@ -77,4 +84,14 @@ export function phaseAt(day: number): Phase {
 }
 export function eventsFor(id: string): MissionEvent[] {
   return MISSION.eventos.filter((e) => e.astronauta === id || e.astronauta === "ALL");
+}
+
+/** Real DONKI events mapped onto mission days (mission day 94 = 2024-05-09). */
+const REPLAY_START = Date.parse(`${MISSION.clima_espacial.fecha_inicio_replay}T00:00Z`);
+const toDay = (iso: string) => MISSION.clima_espacial.dia_inicio_replay + Math.floor((Date.parse(iso) - REPLAY_START) / 86400000);
+export function spaceWeatherAt(day: number) {
+  const sep = MISSION.clima_espacial.eventos_particulas_solares.filter((e) => toDay(e.hora) === day);
+  const gst = MISSION.clima_espacial.tormentas_geomagneticas.filter((g) => toDay(g.inicio) === day);
+  const recentSep = MISSION.clima_espacial.eventos_particulas_solares.some((e) => day - toDay(e.hora) >= 0 && day - toDay(e.hora) <= 7);
+  return { sep, gst, recentSep, active: sep.length > 0 || gst.length > 0 };
 }

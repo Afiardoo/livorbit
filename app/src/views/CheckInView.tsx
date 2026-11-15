@@ -6,6 +6,7 @@ import { news2, worst } from "../engine/engines";
 import { INDICATOR } from "../data/content";
 import { asset, Card, dayLabel, Icon, LEVEL_COLOR, Status } from "../lib/ui";
 import { CrewPicker } from "./AstronautView";
+import { AmslerGrid, ReactionTest, TestSummary, type TestResults } from "../components/QuickTests";
 
 const MOODS = ["Very low", "Low", "Okay", "Good", "Great"];
 const AUTO: (keyof VitalRecord)[] = ["fc", "spo2", "fr", "temp"];
@@ -28,9 +29,10 @@ export function CheckInView() {
   const [sleepOk, setSleepOk] = useState<boolean | null>(null);
   const [saved, setSaved] = useState(false);
   const [howFor, setHowFor] = useState<string | null>(null);
+  const [tests, setTests] = useState<TestResults>({});
   const key = `${astronaut}:${day}`;
   const [lastKey, setLastKey] = useState(key);
-  if (key !== lastKey) { setLastKey(key); setV({}); setBp("idle"); setSleepOk(null); setSaved(false); }
+  if (key !== lastKey) { setLastKey(key); setV({}); setBp("idle"); setSleepOk(null); setSaved(false); setTests({}); }
 
   const val = (k: string) => v[k] ?? (k === "glucosa" ? glucose : (base[k as keyof VitalRecord] as number));
   const measureBp = () => { setBp("measuring"); window.setTimeout(() => setBp("done"), 1600); };
@@ -38,7 +40,7 @@ export function CheckInView() {
 
   const n = news2(val("fr"), val("spo2"), val("pas"), val("fc"), val("temp"));
   const keys = ["pas", "fc", "spo2", "fr", "temp", "sueno_h", "animo_1a5", ...(bloodDay ? ["glucosa"] : [])];
-  const overall = worst(n.level, ...keys.map((k) => INDICATOR[k].level(val(k))));
+  const overall = worst(n.level, ...keys.map((k) => INDICATOR[k].level(val(k))), tests.reaction?.level ?? "NOMINAL", tests.amsler?.level ?? "NOMINAL");
 
   const save = () => {
     const out: Partial<VitalRecord> = {};
@@ -126,6 +128,16 @@ export function CheckInView() {
             </div>
           </Row>
 
+          <Row icon="vision" title="Fatigue and vision" tag="Optional · 1 minute">
+            <div className="grid gap-4 md:grid-cols-2">
+              <div>
+                <p className="mb-2 text-xs text-muted">Reaction test: tap the moment the box turns green, 5 times.</p>
+                <ReactionTest onDone={(reaction) => setTests((t) => ({ ...t, reaction }))} />
+              </div>
+              <AmslerGrid answer={tests.amsler?.distorted} onAnswer={(amsler) => setTests((t) => ({ ...t, amsler }))} />
+            </div>
+          </Row>
+
           {bloodDay && (
             <Row icon="blood-analyzer" title="Weekly blood drop" tag="PCBA · 2 minutes" action={<HowBtn k="glucosa" />}>
               <div className="flex items-center gap-3">
@@ -155,6 +167,7 @@ export function CheckInView() {
               <Status level={overall} size="lg" />
               <p className="mt-3 text-sm text-moon/80">{overall === "NOMINAL" ? "Everything is within the normal range. Keep the routine." : overall === "CAUTION" ? "Something is off. Re-measure later today; livorbit will watch the trend." : "Values meet emergency criteria. Open the emergency guide now."}</p>
               <div className="mt-4 rounded-xl bg-ink/60 p-3 text-sm"><span className="text-muted">Early warning score (NEWS2)</span> <span className="num float-right">{n.total}</span></div>
+              <TestSummary r={tests} />
               {n.level === "WARNING" && <button onClick={() => open("emergency")} className="mt-3 w-full rounded-xl bg-warning py-2.5 font-bold text-ink">Emergency guide</button>}
             </>
           ) : (

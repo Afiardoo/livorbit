@@ -6,7 +6,7 @@ const CHAIN = [
   { icon: "baseline", t: "Interpret", d: "NOMINAL / CAUTION / WARNING per body system, with the reason and the space hazard behind it." },
   { icon: "forecast", t: "Anticipate", d: "Trends and the mission twin show where the body is heading before it becomes an emergency." },
   { icon: "emergency", t: "Act", d: "Step-by-step protocols that only use equipment that is on board." },
-  { icon: "report-earth", t: "Communicate", d: "Compact reports for the flight surgeon, designed for a 4–24 minute signal delay." },
+  { icon: "report-earth", t: "Communicate", d: "Every alert says \"handle on board\" or \"notify Earth\" (warnings, or cautions that persist 3 days), plus compact reports for a 4–24 minute delay." },
 ];
 
 const ENGINES = [
@@ -14,6 +14,8 @@ const ENGINES = [
   { k: "B", n: "Trend forecast", d: "Linear trend of the last 7–14 days. Warns when a threshold will be crossed within 7 days, and only if the trend is consistent (R² ≥ 0.6)." },
   { k: "C", n: "Mission twin", d: "Projects bone density and radiation dose with NASA published rates and the effect of countermeasures." },
   { k: "D", n: "NEWS2", d: "National Early Warning Score 2 (Royal College of Physicians, 2017): a clinically validated sum of 7 vital signs that says when to escalate." },
+  { k: "I", n: "Immune risk index", d: "Preventive: short sleep + low mood + recent solar particle event + lymphocytes below normal. Three or more together raise a caution before any symptom appears." },
+  { k: "S", n: "Signal quality first", d: "A detached electrode, motion or two thermometers that disagree are reported as \"check sensor\", never as a clinical alarm. The bad reading is excluded from all engines." },
 ];
 
 const CAPTURE = [
@@ -63,7 +65,7 @@ export function AboutView() {
           ))}
         </div>
         <div className="mt-4 grid gap-3 md:grid-cols-3">
-          <Num v="3 / 3" l="Injected mission events detected (cardiac, behavioral, fever)" />
+          <Num v="3 / 3" l="Injected clinical events detected (cardiac, behavioral, fever); 5 / 5 sensor faults reported as sensor, not alarm" />
           <Num v="3 days" l="Early warning before the simulated collapse" />
           <Num v="23.7 → 9 %" l="Days with a false alarm, after recalibrating the normal in flight" />
         </div>
@@ -99,6 +101,7 @@ export function AboutView() {
           <ul className="space-y-2 text-sm">
             <li><span className="font-bold text-life">Real · </span>NASA OSDR OSD-575 and OSD-569 (Inspiration4 blood panels with reference ranges).</li>
             <li><span className="font-bold text-life">Real · </span>ISS medical equipment and measurement ranges: CHeCS Medical Hardware Catalog (NASA, 2011).</li>
+            <li><span className="font-bold text-life">Real · </span>NASA DONKI space weather: the May 2024 storm (G5, Kp 9, 14 solar particle events), replayed on mission days 94–98.</li>
             <li><span className="font-bold text-lavender">Synthetic · </span>A 4-person, 270-day Mars mission. Blood baselines seeded from the real Inspiration4 crew; noise from their real variability; drifts from NASA rates.</li>
           </ul>
           <div className="label mb-2 mt-4">Assumptions in the simulation</div>
@@ -152,6 +155,7 @@ export function AboutView() {
             ["NASA HRP evidence reports", "https://humanresearchroadmap.nasa.gov/evidence/"],
             ["CSA · Bio-Monitor (Astroskin)", "https://www.asc-csa.gc.ca/eng/sciences/astroskin.asp"],
             ["CSA · Monitoring radiation for astronaut health", "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp"],
+            ["NASA DONKI · space weather database", "https://kauai.ccmc.gsfc.nasa.gov/DONKI/"],
             ["Royal College of Physicians · NEWS2", "https://www.rcp.ac.uk/improving-care/resources/national-early-warning-score-news-2/"],
           ].map(([l, u]) => <li key={u}><a href={u} target="_blank" rel="noreferrer" className="hover:underline">{l} ↗</a></li>)}
         </ul>

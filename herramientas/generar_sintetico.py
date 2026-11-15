@@ -89,7 +89,8 @@ SUPUESTOS = [
     {"tema": "Hematocrito", "valor": "+4 % inicial por pérdida de plasma, vuelve a +1 %", "fuente": "Informe cardiovascular HRP (cualitativo)", "tipo": "Supuesto informado"},
     {"tema": "Presión y pulso en vuelo", "valor": "PAS −6 mmHg, FC −3 lpm", "fuente": "Supuesto del equipo (no está en los documentos descargados)", "tipo": "Supuesto"},
     {"tema": "Ánimo", "valor": "descenso lento por aislamiento (−0.002/día)", "fuente": "Supuesto del equipo; ver informe de salud conductual HRP", "tipo": "Supuesto"},
-    {"tema": "Tormenta solar día 95", "valor": "+20 mSv en un día", "fuente": "Escenario de demo", "tipo": "Supuesto"},
+    {"tema": "Tormenta solar (días 94–98)", "valor": "Momentos reales de mayo 2024 (G5, Kp 9; 14 eventos SEP); dosis +24 mSv en 4 días", "fuente": "Tiempos: NASA DONKI (real). Magnitud de dosis: supuesto de demo", "tipo": "Supuesto informado"},
+    {"tema": "Fallas de sensor", "valor": "Electrodo suelto (AST-1, días 40–41), movimiento (AST-2, día 60), termómetros discrepantes (AST-4, días 165–166)", "fuente": "Escenario de demo, propuesto por el equipo", "tipo": "Supuesto"},
     {"tema": "Retraso de comunicación", "valor": "de ~5 s a 20 min (una vía) durante el tránsito", "fuente": "Simplificación; real ~3–22 min según órbitas", "tipo": "Supuesto"},
 ]
 
@@ -103,8 +104,15 @@ EVENTOS = [
     {"astronauta": "AST-1", "dia_inicio": 70, "dia_evento": 71, "tipo": "fever",
      "titulo": "Fever with low lymphocytes",
      "descripcion": "38.3–38.6 °C on days 71–72, compatible with latent viral reactivation."},
-    {"astronauta": "ALL", "dia_inicio": 95, "dia_evento": 95, "tipo": "solar_particle_event",
-     "titulo": "Solar particle event", "descripcion": "+20 mSv in one day for the whole crew."},
+    {"astronauta": "ALL", "dia_inicio": 94, "dia_evento": 95, "tipo": "solar_particle_event",
+     "titulo": "Solar storm (real May 2024 replay)",
+     "descripcion": "Replay of the real May 2024 storm from NASA DONKI: solar particle events May 9–13 and a G5 geomagnetic storm (Kp 9) on May 10. Mission day 94 = 2024-05-09."},
+    {"astronauta": "AST-1", "dia_inicio": 40, "dia_evento": 40, "tipo": "sensor_fault",
+     "titulo": "ECG electrode detached", "descripcion": "Days 40–41: lead-off signal, heart rate reads 0. Must be reported as a sensor problem, not a clinical alarm."},
+    {"astronauta": "AST-2", "dia_inicio": 60, "dia_evento": 60, "tipo": "sensor_fault",
+     "titulo": "Motion artifact", "descripcion": "Day 60: heart rate recorded during exercise, flagged as motion."},
+    {"astronauta": "AST-4", "dia_inicio": 165, "dia_evento": 165, "tipo": "sensor_fault",
+     "titulo": "Thermometers disagree", "descripcion": "Days 165–166: the two skin thermometers differ by more than 1 °C."},
     {"astronauta": "AST-4", "dia_inicio": 0, "dia_evento": 90, "tipo": "low_exercise",
      "titulo": "Low exercise adherence", "descripcion": "35 % adherence: faster modeled bone loss."},
 ]
@@ -152,7 +160,7 @@ def generar():
                     perdida_mes *= 0.5
                 hueso -= perdida_mes / 30
             # --- radiación
-            dosis += f["radiacion_mSv_dia"] + (20 if dia == 95 else 0)
+            dosis += f["radiacion_mSv_dia"] + {95: 8, 96: 10, 97: 2, 98: 4}.get(dia, 0)  # réplica de mayo 2024 (DONKI)
             # --- vitales
             v = {k: vb[k] + rnd.gauss(0, s) for k, s in RUIDO_VITALES.items()}
             if en_vuelo:
@@ -185,6 +193,15 @@ def generar():
                 v["temp"] = 38.3 + 0.3 * (dia - 71)
                 v["fc"] += 14
 
+            # --- fallas de sensor (no son eventos clínicos)
+            calidad, temp_2 = "ok", None
+            if a["id"] == "AST-1" and dia in (40, 41):
+                v["fc"], calidad = 0, "electrode_off"
+            if a["id"] == "AST-2" and dia == 60:
+                v["fc"], calidad = 158, "motion"
+            if a["id"] == "AST-4" and dia in (165, 166):
+                temp_2, v["temp"], calidad = round(v["temp"], 1), 38.9, "temp_mismatch"
+
             vitales.append({
                 "astronauta": a["id"], "dia": dia, "fase": f["id"],
                 "fc": round(v["fc"]), "pas": round(v["pas"]), "pad": round(v["pad"]),
@@ -196,6 +213,7 @@ def generar():
                 "radiacion_acumulada_mSv": round(dosis, 1),
                 "consciente": consciente, "dolor_toracico": dolor_toracico, "oxigeno": oxigeno,
                 "retraso_com_s": retraso_comunicacion_s(dia),
+                "calidad": calidad, "temp_2": temp_2,
                 "sintetico": True,
             })
 
@@ -233,6 +251,8 @@ def main():
         "astronautas": ASTRONAUTAS,
         "variables_sangre": {v: REALES["variables"][v] for v in SANGRE_PCBA + SANGRE_HEMOCUE if v in REALES["variables"]},
         "eventos": EVENTOS,
+        "clima_espacial": {"dia_inicio_replay": 94, "fecha_inicio_replay": "2024-05-09",
+                           **json.loads((RAIZ / "datos" / "reales" / "donki_mayo_2024.json").read_text())},
         "supuestos": SUPUESTOS,
         "vitales": vitales,
         "sangre": sangre,

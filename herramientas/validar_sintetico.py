@@ -19,6 +19,7 @@ CV = json.loads((RAIZ / "datos" / "reales" / "variabilidad_intrapersonal.json").
 RELEVANTES = {"AST-3": ("fc", "pas", "NEWS2", "glucosa", "sueno_h"), "AST-2": ("animo_1a5", "sueno_h"),
               "AST-1": ("temp", "fc", "NEWS2", "linfocitos")}
 VENTANAS = {"AST-3": [(141, 154)], "AST-2": [(110, 165)], "AST-1": [(70, 73)]}
+AFECTA = {"electrode_off": "fc", "motion": "fc", "temp_mismatch": "temp"}
 UMBRALES_TENDENCIA = {"fc": (">", 100), "pas": (">", 140), "animo_1a5": ("<", 2.5), "sueno_h": ("<", 5.5)}
 
 
@@ -30,7 +31,15 @@ def main():
     alertas = []
     for a in D["astronautas"]:
         aid = a["id"]
-        vit = [r for r in D["vitales"] if r["astronauta"] == aid]
+        vit = [dict(r) for r in D["vitales"] if r["astronauta"] == aid]
+        # --- Calidad de señal: una lectura con falla de sensor NO es una alerta clínica.
+        # Se reporta como "revisar sensor" y, para los motores, se reemplaza por la última lectura válida.
+        for i, r in enumerate(vit):
+            if r.get("calidad", "ok") != "ok":
+                var = AFECTA[r["calidad"]]
+                alertas.append({"astronauta": aid, "dia": r["dia"], "motor": f"S-sensor:{r['calidad']}", "nivel": "SENSOR",
+                                "detalle": f"{var} reading {r[var]} discarded ({r['calidad']})"})
+                r[var] = vit[i - 1][var]
         pre = [r for r in vit if r["dia"] < 0]
 
         # --- Motor D: NEWS2 diario
@@ -91,7 +100,7 @@ def main():
     lineas += ["| Evento | Astronauta | Inicio del problema | Día crítico | Primera alerta | Días antes del día crítico | Motores que alertaron |",
                "|---|---|---|---|---|---|---|"]
     for ev in D["eventos"]:
-        if ev["astronauta"] not in VENTANAS:
+        if ev["astronauta"] not in VENTANAS or ev["tipo"] == "sensor_fault":
             continue
         a0, b0 = VENTANAS[ev["astronauta"]][0]
         hits = sorted((x for x in alertas if x["astronauta"] == ev["astronauta"] and a0 <= x["dia"] <= b0
@@ -104,7 +113,13 @@ def main():
         else:
             lineas.append(f"| {ev['titulo']} | {ev['astronauta']} | {ev['dia_inicio']} | {ev['dia_evento']} | **no detectado** | — | — |")
 
-    falsas = [x for x in alertas if x["dia"] >= 0 and not en_evento(x["astronauta"], x["dia"])]
+    sensores = [x for x in alertas if x["nivel"] == "SENSOR"]
+    fallas = [(r["astronauta"], r["dia"]) for r in D["vitales"] if r.get("calidad", "ok") != "ok"]
+    clinicas_en_fallas = [x for x in alertas if x["nivel"] != "SENSOR" and (x["astronauta"], x["dia"]) in fallas]
+    lineas += ["", f"**Fallas de sensor:** {len({(x['astronauta'], x['dia']) for x in sensores})} de {len(fallas)} días con falla "
+               f"identificados como 'revisar sensor'; alertas clínicas falsas en esos días: {len(clinicas_en_fallas)}.", ""]
+    alertas_clinicas = [x for x in alertas if x["nivel"] != "SENSOR"]
+    falsas = [x for x in alertas_clinicas if x["dia"] >= 0 and not en_evento(x["astronauta"], x["dia"])]
     dias_vuelo = sum(1 for r in D["vitales"] if r["dia"] >= 0)
     por_motor = {}
     for x in falsas:

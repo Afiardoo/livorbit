@@ -88,6 +88,12 @@ export function AstronautView() {
         </Card>
 
         <div className="space-y-5">
+          {r.sensor.map((m) => (
+            <div key={m} className="flex items-start gap-3 rounded-2xl border px-4 py-3 text-sm" style={{ borderColor: "var(--color-lavender)", background: "color-mix(in srgb, var(--color-lavender) 10%, transparent)" }}>
+              <Icon name="settings" size={20} style={{ color: "var(--color-lavender)" }} />
+              <span><span className="font-bold text-lavender">Check sensor · </span>{m}</span>
+            </div>
+          ))}
           <Card className="p-5">
             <div className="label mb-3">What changed</div>
             {insights.length === 0 ? (
@@ -100,7 +106,12 @@ export function AstronautView() {
                       style={{ background: `color-mix(in srgb, ${LEVEL_COLOR[i.level]} 9%, transparent)` }}>
                       <Icon name={i.level === "WARNING" ? "status-warning" : i.trend ? "forecast" : "status-caution"} size={20} style={{ color: LEVEL_COLOR[i.level] }} />
                       <span className="flex-1"><span className="font-semibold">{i.title}</span><span className="block text-xs text-muted">{i.detail}</span></span>
-                      {i.metric && <span className="text-xs text-lavender">See trend →</span>}
+                      {i.notify && (
+                        <span className="shrink-0 rounded-full px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider"
+                          style={i.notify === "earth" ? { background: "var(--color-warning)", color: "var(--color-ink)" } : { border: "1px solid var(--color-border)", color: "var(--color-muted)" }}>
+                          {i.notify === "earth" ? "Notify Earth" : "Handle on board"}
+                        </span>
+                      )}
                     </button>
                   </li>
                 ))}

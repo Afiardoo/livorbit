@@ -1,11 +1,11 @@
 // Turns raw measurements into what the crew sees: a status per body system, an overall status and alerts.
-import { CV_INTRA, FIRST_DAY, bloodSeries, bloodVariables, latestBlood, MISSION, type Level, type VitalRecord } from "../data/mission";
+import { CV_INTRA, FIRST_DAY, bloodSeries, bloodVariables, latestBlood, MISSION, spaceWeatherAt, type Level, type VitalRecord } from "../data/mission";
 import { INDICATOR, BLOOD_LABELS, SYSTEMS, type SystemId } from "../data/content";
 import { adaptiveBaseline, news2, personalDeviation, pointsLevel, trend, worst, type News2 } from "./engines";
 
 export type Overrides = Record<string, Record<number, Partial<VitalRecord>>>;
 
-export interface Reason { level: Level; text: string; engine: "A" | "B" | "C" | "D" | "range" }
+export interface Reason { level: Level; text: string; engine: "A" | "B" | "C" | "D" | "I" | "range"; system?: SystemId; notify?: "earth" | "onboard" }
 export interface SystemStatus { level: Level; reasons: Reason[] }
 export interface Assessment {
   day: number;
@@ -15,14 +15,38 @@ export interface Assessment {
   overall: Level;
   alerts: Reason[];
   manual: boolean;
+  /** Readings discarded because the sensor, not the body, is the problem. */
+  sensor: string[];
 }
 
 /** Synthetic series for one astronaut, with any check-in values the user entered merged on top. */
-export function series(id: string, overrides: Overrides): VitalRecord[] {
+export function rawSeries(id: string, overrides: Overrides): VitalRecord[] {
   const base = MISSION.vitales.filter((v) => v.astronauta === id);
   const o = overrides[id];
   if (!o) return base;
-  return base.map((v) => (o[v.dia] ? { ...v, ...o[v.dia] } : v));
+  return base.map((v) => (o[v.dia] ? { ...v, ...o[v.dia], calidad: "ok" as const } : v));
+}
+
+/** Signal quality first: a detached electrode, motion or two thermometers that disagree are sensor problems,
+ *  not clinical alarms. For the engines, the bad reading is replaced by the last valid one. */
+export const SENSOR_FIELD: Record<string, keyof VitalRecord> = { electrode_off: "fc", motion: "fc", temp_mismatch: "temp" };
+export const SENSOR_TEXT: Record<string, string> = {
+  electrode_off: "ECG electrode detached: heart rate reads 0. Re-attach the electrode; this is not a clinical alarm.",
+  motion: "Heart rate recorded while moving (motion artifact). Re-measure at rest.",
+  temp_mismatch: "The two thermometers disagree by more than 1 °C. Check sensor contact before trusting the value.",
+};
+const cache = new Map<string, VitalRecord[]>();
+export function series(id: string, overrides: Overrides): VitalRecord[] {
+  const key = `${id}:${JSON.stringify(overrides[id] ?? {})}`;
+  const hit = cache.get(key);
+  if (hit) return hit;
+  const raw = rawSeries(id, overrides);
+  const clean = raw.map((r) => ({ ...r }));
+  clean.forEach((r, i) => {
+    if (r.calidad !== "ok" && i > 0) { const f = SENSOR_FIELD[r.calidad]; (r as unknown as Record<string, number>)[f] = clean[i - 1][f] as number; }
+  });
+  cache.set(key, clean);
+  return clean;
 }
 
 const VITAL_WINDOWS: { id: keyof VitalRecord; w: number; onlyDown?: boolean }[] = [
@@ -35,12 +59,14 @@ const TREND_RULES: { id: keyof VitalRecord; dir: 1 | -1; threshold: number; wind
   { id: "animo_1a5", dir: -1, threshold: 2.5, window: 14, smooth: 7, label: "mood below 2.5 / 5" },
 ];
 
-export function assess(id: string, day: number, overrides: Overrides = {}): Assessment {
+export function assess(id: string, day: number, overrides: Overrides = {}, shallow = false): Assessment {
   const s = series(id, overrides);
   const idx = day - FIRST_DAY;
   const v = s[idx];
+  const raw = rawSeries(id, overrides)[idx];
+  const sensor = raw.calidad !== "ok" ? [SENSOR_TEXT[raw.calidad]] : [];
   const systems = Object.fromEntries(SYSTEMS.map((x) => [x.id, { level: "NOMINAL" as Level, reasons: [] as Reason[] }])) as Record<SystemId, SystemStatus>;
-  const add = (sys: SystemId, r: Reason) => { systems[sys].reasons.push(r); systems[sys].level = worst(systems[sys].level, r.level); };
+  const add = (sys: SystemId, r: Reason) => { r.system = sys; systems[sys].reasons.push(r); systems[sys].level = worst(systems[sys].level, r.level); };
 
   // ---- Engine D: NEWS2 on today's vitals
   const n = news2(v.fr, v.spo2, v.pas, v.fc, v.temp, v.oxigeno, v.consciente);
@@ -121,13 +147,36 @@ export function assess(id: string, day: number, overrides: Overrides = {}): Asse
     else if (week < 60) add("muscle", { level: "CAUTION", engine: "C", text: `Exercise ${week.toFixed(0)} min/day this week (target 120)` });
   }
 
+  // ---- Immune risk index (preventive): several small stressors together, before any symptom.
+  if (day >= 7) {
+    const wk = s.slice(idx - 6, idx + 1);
+    const factors: string[] = [];
+    if (wk.reduce((a, r) => a + r.sueno_h, 0) / 7 < 6) factors.push("short sleep");
+    if (wk.reduce((a, r) => a + r.animo_1a5, 0) / 7 <= 3.2) factors.push("low mood / stress");
+    if (spaceWeatherAt(day).recentSep) factors.push("recent solar particle event");
+    const ly = latestBlood(id, "linfocitos", day);
+    const lyPre = bloodSeries(id, "linfocitos").filter((r) => r.dia < 0).map((r) => r.valor);
+    if (ly && ly.dia >= 0 && lyPre.length && ly.valor < 0.85 * (lyPre.reduce((a, x) => a + x, 0) / lyPre.length)) factors.push("lymphocytes below your normal");
+    if (factors.length >= 3) add("immune", { level: "CAUTION", engine: "I", text: `Immune risk elevated: ${factors.join(" + ")}. Prioritize sleep, hygiene and rest before symptoms appear.` });
+  }
+
   systems.eyes.level = "NODATA";
   systems.eyes.reasons.push({ level: "NODATA", engine: "range", text: "No eye measurement in this dataset. Monthly vision check recommended." });
 
   const overall = worst(n.level, ...Object.values(systems).map((x) => x.level));
   const alerts = Object.values(systems).flatMap((x) => x.reasons).filter((r) => r.level === "CAUTION" || r.level === "WARNING")
     .sort((a, b) => (b.level === "WARNING" ? 1 : 0) - (a.level === "WARNING" ? 1 : 0));
-  return { day, vitals: v, news2: n, systems, overall, alerts, manual: Boolean(overrides[id]?.[day]) };
+
+  // ---- Escalation rule: WARNING -> notify Earth now. CAUTION -> handle on board, unless the same body system
+  //      has stayed at CAUTION or worse for 3 days in a row (persistence), then notify Earth.
+  if (!shallow) {
+    const prev = [1, 2].map((k) => (day - k >= FIRST_DAY ? assess(id, day - k, overrides, true) : null));
+    for (const r of alerts) {
+      const persistent = r.system && prev.every((p) => p && (p.systems[r.system!].level === "CAUTION" || p.systems[r.system!].level === "WARNING"));
+      r.notify = r.level === "WARNING" || persistent ? "earth" : "onboard";
+    }
+  }
+  return { day, vitals: v, news2: n, systems, overall, alerts, manual: Boolean(overrides[id]?.[day]), sensor };
 }
 
 export const fmt = (x: number) => (Math.abs(x) >= 100 ? x.toFixed(0) : Math.abs(x) >= 10 ? x.toFixed(1) : x.toFixed(2));

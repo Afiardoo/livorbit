@@ -9,6 +9,8 @@ Reproduce everything with `cd herramientas && python3 datos_reales.py && python3
 | B · Trend | Linear trend of the last 7–14 days. It warns if a threshold will be crossed within 7 days, and only when the trend is consistent (R² ≥ 0.6). |
 | C · Mission twin | Bone density and radiation dose from NASA published rates. |
 | D · NEWS2 | National Early Warning Score 2 (Royal College of Physicians, 2017). |
+| I · Immune risk index | 3 or more of: short sleep, low mood, recent solar particle event, lymphocytes below the personal normal. |
+| S · Signal quality | Sensor faults are reported as "check sensor" and excluded, never raised as clinical alarms. |
 
 ## A. Real data (Inspiration4, NASA OSDR OSD-575 / OSD-569)
 4 crewmembers × 7 time points (L-92, L-44, L-3, R+1, R+45, R+82, R+194), 17 blood markers with reference ranges.
@@ -31,6 +33,8 @@ Reproduce everything with `cd herramientas && python3 datos_reales.py && python3
 | Gradual mood and sleep decline | AST-2 | 110 | 140 | day 119 (21 days before) | personal mood and sleep, mood and sleep trends |
 | Fever with low lymphocytes | AST-1 | 70 | 71 | day 71 (same day) | personal temperature and heart rate |
 
+**Sensor faults (signal quality first):** 5 of 5 days with an injected sensor fault (detached ECG electrode, motion artifact, thermometers disagreeing by more than 1 °C) were reported as "check sensor" and excluded from the engines. One unrelated low-temperature caution occurred on one of those days.
+
 **Key finding:** comparing in-flight data with the Earth baseline produced false alarms on **23.7 %** of astronaut-days, because the body adapts to space (for example, blood pressure drops). Recalibrating the personal normal in flight cut false alarms to **8.9 %** of days, all at caution level, without missing any event.
 
 **Engine C at day 209:** bone density −3.2 % with 90 % exercise adherence vs. −6.2 % with 35 %; radiation 293 mSv (49 % of the 600 mSv career limit).
@@ -47,4 +51,5 @@ This is a technical check of the engines on injected events, **not a clinical va
 | Blood pressure and heart rate in flight | −6 mmHg, −3 bpm | Team assumption |
 | Mood | Slow decline from isolation | Team assumption |
 | Partial gravity on Mars | Halves the bone loss | Team assumption |
-| Solar particle event | +20 mSv in one day | Demo scenario |
+| Solar storm (days 94–98) | Real timing of the May 2024 storm from NASA DONKI (G5, Kp 9, 14 SEP events); +24 mSv over 4 days | Timing: real (DONKI). Dose magnitude: demo assumption |
+| Sensor faults | Electrode off (AST-1, days 40–41), motion (AST-2, day 60), thermometer mismatch (AST-4, days 165–166) | Demo scenario |

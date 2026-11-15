@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@font-face { font-family: "Manrope"; src: url("./assets/fonts/Manrope-Variable.ttf") format("truetype"); font-weight: 200 800; font-display: swap; }
+@font-face { font-family: "DM Mono"; src: url("./assets/fonts/DMMono-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "DM Mono"; src: url("./assets/fonts/DMMono-Medium.ttf") format("truetype"); font-weight: 500; font-display: swap; }
+
+/* LIVORBIT tokens (identidad/v01-livorbit/desarrollo/tokens.json) */
+@theme {
+  --color-ink: #111827;
+  --color-ink-2: #0c1220;
+  --color-surface: #1b2537;
+  --color-surface-2: #222e44;
+  --color-border: #354055;
+  --color-muted: #a6b0c3;
+  --color-moon: #f3f2e9;
+  --color-life: #d9f86b;
+  --color-lavender: #b7acf5;
+  --color-nominal: #77dec0;
+  --color-caution: #f4c979;
+  --color-warning: #ff949e;
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+  --radius-card: 16px;
+}
+
+html, body, #root { min-height: 100%; }
+body {
+  margin: 0;
+  background: var(--color-ink);
+  color: var(--color-moon);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+::selection { background: var(--color-life); color: var(--color-ink); }
+:focus-visible { outline: 2px solid var(--color-life); outline-offset: 2px; border-radius: 6px; }
+
+.card { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-card); }
+.label { font-family: var(--font-mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--color-muted); }
+.num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.icon { display: inline-block; width: 1.25em; height: 1.25em; background-color: currentColor;
+  -webkit-mask: var(--icon) center / contain no-repeat; mask: var(--icon) center / contain no-repeat; flex-shrink: 0; }
+
+input[type="range"] { accent-color: var(--color-life); }
+.scroll-thin::-webkit-scrollbar { height: 6px; width: 6px; }
+.scroll-thin::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+
+@keyframes pulse-ring { 0% { box-shadow: 0 0 0 0 rgba(255,148,158,.55); } 100% { box-shadow: 0 0 0 14px rgba(255,148,158,0); } }
+.pulse-warning { animation: pulse-ring 1.6s ease-out infinite; }
+@media (prefers-reduced-motion: reduce) { .pulse-warning { animation: none; } }

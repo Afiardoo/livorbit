@@ -1,0 +1,22 @@
+{
+ "nota": "Pooled within-person coefficient of variation, Inspiration4 pre-flight (L-92, L-44, L-3)",
+ "cv_intra": {
+  "glucosa": 0.1377,
+  "sodio": 0.0083,
+  "potasio": 0.0593,
+  "cloro": 0.0131,
+  "calcio": 0.033,
+  "co2": 0.057,
+  "bun": 0.1409,
+  "creatinina": 0.0627,
+  "albumina": 0.0456,
+  "alt": 0.0968,
+  "ast": 0.1737,
+  "hemoglobina": 0.0401,
+  "hematocrito": 0.0324,
+  "leucocitos": 0.145,
+  "linfocitos": 0.3367,
+  "neutrofilos": 0.37,
+  "plaquetas": 0.2597
+ }
+}

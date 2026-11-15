@@ -1,0 +1,19 @@
+# dependencies and builds
+node_modules/
+dist/
+.DS_Store
+__pycache__/
+
+# local tooling
+.claude/
+
+# internal working notes (Spanish drafts) and large reference downloads
+recursos_nasa/
+identidad/
+INVESTIGACION.md
+PLAN.md
+CORE_Y_PREDICCION.md
+HARDWARE_Y_DATOS.md
+VALIDACION.md
+datos/**/_validacion_*.md
+datos/osdr_inspiration4/

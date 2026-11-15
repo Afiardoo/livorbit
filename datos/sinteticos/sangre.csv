@@ -1,0 +1,1179 @@
+astronauta,dia,variable,valor,unidad,dispositivo,sintetico
+AST-1,-60,glucosa,78.96,mg/dL,PCBA (EC8+),True
+AST-1,-60,sodio,139.23,mmol/L,PCBA (EC8+),True
+AST-1,-60,potasio,4.18,mmol/L,PCBA (EC8+),True
+AST-1,-60,hematocrito,41.61,%,PCBA (EC8+),True
+AST-1,-60,hemoglobina,14.57,g/dL,PCBA (EC8+),True
+AST-1,-60,bun,19.07,mg/dL,PCBA (EC8+),True
+AST-1,-60,creatinina,1.24,mg/dL,PCBA (EC8+),True
+AST-1,-60,leucocitos,6.62,10^3/µL,HemoCue WBC DIFF,True
+AST-1,-60,linfocitos,2510.83,cells/µL,HemoCue WBC DIFF,True
+AST-1,-50,glucosa,70.91,mg/dL,PCBA (EC8+),True
+AST-1,-50,sodio,139.61,mmol/L,PCBA (EC8+),True
+AST-1,-50,potasio,4.74,mmol/L,PCBA (EC8+),True
+AST-1,-50,hematocrito,45.81,%,PCBA (EC8+),True
+AST-1,-50,hemoglobina,15.08,g/dL,PCBA (EC8+),True
+AST-1,-50,bun,21.78,mg/dL,PCBA (EC8+),True
+AST-1,-50,creatinina,1.15,mg/dL,PCBA (EC8+),True
+AST-1,-50,leucocitos,4.78,10^3/µL,HemoCue WBC DIFF,True
+AST-1,-50,linfocitos,2392.04,cells/µL,HemoCue WBC DIFF,True
+AST-1,-40,glucosa,66.67,mg/dL,PCBA (EC8+),True
+AST-1,-40,sodio,140.28,mmol/L,PCBA (EC8+),True
+AST-1,-40,potasio,3.61,mmol/L,PCBA (EC8+),True
+AST-1,-40,hematocrito,43.66,%,PCBA (EC8+),True
+AST-1,-40,hemoglobina,15.17,g/dL,PCBA (EC8+),True
+AST-1,-40,bun,24.12,mg/dL,PCBA (EC8+),True
+AST-1,-40,creatinina,1.17,mg/dL,PCBA (EC8+),True
+AST-1,-40,leucocitos,6.29,10^3/µL,HemoCue WBC DIFF,True
+AST-1,-40,linfocitos,2193.01,cells/µL,HemoCue WBC DIFF,True
+AST-1,-30,glucosa,86.96,mg/dL,PCBA (EC8+),True
+AST-1,-30,sodio,139.49,mmol/L,PCBA (EC8+),True
+AST-1,-30,potasio,4.55,mmol/L,PCBA (EC8+),True
+AST-1,-30,hematocrito,43.75,%,PCBA (EC8+),True
+AST-1,-30,hemoglobina,14.62,g/dL,PCBA (EC8+),True
+AST-1,-30,bun,20.86,mg/dL,PCBA (EC8+),True
+AST-1,-30,creatinina,1.18,mg/dL,PCBA (EC8+),True
+AST-1,-30,leucocitos,6.79,10^3/µL,HemoCue WBC DIFF,True
+AST-1,-30,linfocitos,2171.8,cells/µL,HemoCue WBC DIFF,True
+AST-1,-20,glucosa,76.93,mg/dL,PCBA (EC8+),True
+AST-1,-20,sodio,140.04,mmol/L,PCBA (EC8+),True
+AST-1,-20,potasio,4.17,mmol/L,PCBA (EC8+),True
+AST-1,-20,hematocrito,38.81,%,PCBA (EC8+),True
+AST-1,-20,hemoglobina,14.97,g/dL,PCBA (EC8+),True
+AST-1,-20,bun,21.47,mg/dL,PCBA (EC8+),True
+AST-1,-20,creatinina,1.3,mg/dL,PCBA (EC8+),True
+AST-1,-20,leucocitos,5.45,10^3/µL,HemoCue WBC DIFF,True
+AST-1,-20,linfocitos,1851.46,cells/µL,HemoCue WBC DIFF,True
+AST-1,-10,glucosa,71.15,mg/dL,PCBA (EC8+),True
+AST-1,-10,sodio,141.04,mmol/L,PCBA (EC8+),True
+AST-1,-10,potasio,4.0,mmol/L,PCBA (EC8+),True
+AST-1,-10,hematocrito,45.36,%,PCBA (EC8+),True
+AST-1,-10,hemoglobina,15.36,g/dL,PCBA (EC8+),True
+AST-1,-10,bun,20.84,mg/dL,PCBA (EC8+),True
+AST-1,-10,creatinina,1.2,mg/dL,PCBA (EC8+),True
+AST-1,-10,leucocitos,5.87,10^3/µL,HemoCue WBC DIFF,True
+AST-1,-10,linfocitos,2596.5,cells/µL,HemoCue WBC DIFF,True
+AST-1,0,glucosa,78.87,mg/dL,PCBA (EC8+),True
+AST-1,0,sodio,140.62,mmol/L,PCBA (EC8+),True
+AST-1,0,potasio,4.65,mmol/L,PCBA (EC8+),True
+AST-1,0,hematocrito,44.39,%,PCBA (EC8+),True
+AST-1,0,hemoglobina,15.01,g/dL,PCBA (EC8+),True
+AST-1,0,bun,22.28,mg/dL,PCBA (EC8+),True
+AST-1,0,creatinina,1.17,mg/dL,PCBA (EC8+),True
+AST-1,0,leucocitos,6.0,10^3/µL,HemoCue WBC DIFF,True
+AST-1,0,linfocitos,2314.71,cells/µL,HemoCue WBC DIFF,True
+AST-1,7,glucosa,87.29,mg/dL,PCBA (EC8+),True
+AST-1,7,sodio,139.2,mmol/L,PCBA (EC8+),True
+AST-1,7,potasio,4.25,mmol/L,PCBA (EC8+),True
+AST-1,7,hematocrito,46.65,%,PCBA (EC8+),True
+AST-1,7,hemoglobina,15.17,g/dL,PCBA (EC8+),True
+AST-1,7,bun,19.93,mg/dL,PCBA (EC8+),True
+AST-1,7,creatinina,1.31,mg/dL,PCBA (EC8+),True
+AST-1,14,glucosa,79.89,mg/dL,PCBA (EC8+),True
+AST-1,14,sodio,139.45,mmol/L,PCBA (EC8+),True
+AST-1,14,potasio,4.02,mmol/L,PCBA (EC8+),True
+AST-1,14,hematocrito,47.78,%,PCBA (EC8+),True
+AST-1,14,hemoglobina,14.76,g/dL,PCBA (EC8+),True
+AST-1,14,bun,20.73,mg/dL,PCBA (EC8+),True
+AST-1,14,creatinina,1.29,mg/dL,PCBA (EC8+),True
+AST-1,14,leucocitos,5.25,10^3/µL,HemoCue WBC DIFF,True
+AST-1,14,linfocitos,1714.56,cells/µL,HemoCue WBC DIFF,True
+AST-1,21,glucosa,86.51,mg/dL,PCBA (EC8+),True
+AST-1,21,sodio,140.76,mmol/L,PCBA (EC8+),True
+AST-1,21,potasio,4.33,mmol/L,PCBA (EC8+),True
+AST-1,21,hematocrito,46.48,%,PCBA (EC8+),True
+AST-1,21,hemoglobina,15.68,g/dL,PCBA (EC8+),True
+AST-1,21,bun,21.95,mg/dL,PCBA (EC8+),True
+AST-1,21,creatinina,1.26,mg/dL,PCBA (EC8+),True
+AST-1,28,glucosa,91.79,mg/dL,PCBA (EC8+),True
+AST-1,28,sodio,142.56,mmol/L,PCBA (EC8+),True
+AST-1,28,potasio,4.67,mmol/L,PCBA (EC8+),True
+AST-1,28,hematocrito,47.15,%,PCBA (EC8+),True
+AST-1,28,hemoglobina,14.25,g/dL,PCBA (EC8+),True
+AST-1,28,bun,22.19,mg/dL,PCBA (EC8+),True
+AST-1,28,creatinina,1.16,mg/dL,PCBA (EC8+),True
+AST-1,28,leucocitos,5.15,10^3/µL,HemoCue WBC DIFF,True
+AST-1,28,linfocitos,1605.65,cells/µL,HemoCue WBC DIFF,True
+AST-1,35,glucosa,83.89,mg/dL,PCBA (EC8+),True
+AST-1,35,sodio,140.09,mmol/L,PCBA (EC8+),True
+AST-1,35,potasio,3.86,mmol/L,PCBA (EC8+),True
+AST-1,35,hematocrito,45.37,%,PCBA (EC8+),True
+AST-1,35,hemoglobina,14.37,g/dL,PCBA (EC8+),True
+AST-1,35,bun,23.03,mg/dL,PCBA (EC8+),True
+AST-1,35,creatinina,1.15,mg/dL,PCBA (EC8+),True
+AST-1,42,glucosa,83.75,mg/dL,PCBA (EC8+),True
+AST-1,42,sodio,141.32,mmol/L,PCBA (EC8+),True
+AST-1,42,potasio,4.34,mmol/L,PCBA (EC8+),True
+AST-1,42,hematocrito,46.53,%,PCBA (EC8+),True
+AST-1,42,hemoglobina,15.49,g/dL,PCBA (EC8+),True
+AST-1,42,bun,17.77,mg/dL,PCBA (EC8+),True
+AST-1,42,creatinina,1.05,mg/dL,PCBA (EC8+),True
+AST-1,42,leucocitos,5.06,10^3/µL,HemoCue WBC DIFF,True
+AST-1,42,linfocitos,1737.29,cells/µL,HemoCue WBC DIFF,True
+AST-1,49,glucosa,85.27,mg/dL,PCBA (EC8+),True
+AST-1,49,sodio,139.71,mmol/L,PCBA (EC8+),True
+AST-1,49,potasio,4.2,mmol/L,PCBA (EC8+),True
+AST-1,49,hematocrito,44.76,%,PCBA (EC8+),True
+AST-1,49,hemoglobina,13.68,g/dL,PCBA (EC8+),True
+AST-1,49,bun,22.37,mg/dL,PCBA (EC8+),True
+AST-1,49,creatinina,1.41,mg/dL,PCBA (EC8+),True
+AST-1,56,glucosa,76.91,mg/dL,PCBA (EC8+),True
+AST-1,56,sodio,142.07,mmol/L,PCBA (EC8+),True
+AST-1,56,potasio,4.38,mmol/L,PCBA (EC8+),True
+AST-1,56,hematocrito,44.74,%,PCBA (EC8+),True
+AST-1,56,hemoglobina,14.26,g/dL,PCBA (EC8+),True
+AST-1,56,bun,24.28,mg/dL,PCBA (EC8+),True
+AST-1,56,creatinina,1.39,mg/dL,PCBA (EC8+),True
+AST-1,56,leucocitos,5.28,10^3/µL,HemoCue WBC DIFF,True
+AST-1,56,linfocitos,1871.42,cells/µL,HemoCue WBC DIFF,True
+AST-1,63,glucosa,78.61,mg/dL,PCBA (EC8+),True
+AST-1,63,sodio,139.98,mmol/L,PCBA (EC8+),True
+AST-1,63,potasio,4.09,mmol/L,PCBA (EC8+),True
+AST-1,63,hematocrito,46.57,%,PCBA (EC8+),True
+AST-1,63,hemoglobina,14.73,g/dL,PCBA (EC8+),True
+AST-1,63,bun,22.9,mg/dL,PCBA (EC8+),True
+AST-1,63,creatinina,1.23,mg/dL,PCBA (EC8+),True
+AST-1,70,glucosa,84.05,mg/dL,PCBA (EC8+),True
+AST-1,70,sodio,142.67,mmol/L,PCBA (EC8+),True
+AST-1,70,potasio,3.98,mmol/L,PCBA (EC8+),True
+AST-1,70,hematocrito,45.82,%,PCBA (EC8+),True
+AST-1,70,hemoglobina,14.67,g/dL,PCBA (EC8+),True
+AST-1,70,bun,21.39,mg/dL,PCBA (EC8+),True
+AST-1,70,creatinina,1.29,mg/dL,PCBA (EC8+),True
+AST-1,70,leucocitos,5.7,10^3/µL,HemoCue WBC DIFF,True
+AST-1,70,linfocitos,2346.75,cells/µL,HemoCue WBC DIFF,True
+AST-1,71,leucocitos,4.75,10^3/µL,HemoCue WBC DIFF,True
+AST-1,71,linfocitos,1126.2,cells/µL,HemoCue WBC DIFF,True
+AST-1,77,glucosa,91.29,mg/dL,PCBA (EC8+),True
+AST-1,77,sodio,140.32,mmol/L,PCBA (EC8+),True
+AST-1,77,potasio,4.4,mmol/L,PCBA (EC8+),True
+AST-1,77,hematocrito,43.81,%,PCBA (EC8+),True
+AST-1,77,hemoglobina,14.47,g/dL,PCBA (EC8+),True
+AST-1,77,bun,19.73,mg/dL,PCBA (EC8+),True
+AST-1,77,creatinina,1.08,mg/dL,PCBA (EC8+),True
+AST-1,84,glucosa,87.17,mg/dL,PCBA (EC8+),True
+AST-1,84,sodio,142.74,mmol/L,PCBA (EC8+),True
+AST-1,84,potasio,4.55,mmol/L,PCBA (EC8+),True
+AST-1,84,hematocrito,45.47,%,PCBA (EC8+),True
+AST-1,84,hemoglobina,15.48,g/dL,PCBA (EC8+),True
+AST-1,84,bun,21.94,mg/dL,PCBA (EC8+),True
+AST-1,84,creatinina,1.22,mg/dL,PCBA (EC8+),True
+AST-1,84,leucocitos,5.82,10^3/µL,HemoCue WBC DIFF,True
+AST-1,84,linfocitos,1936.66,cells/µL,HemoCue WBC DIFF,True
+AST-1,91,glucosa,83.08,mg/dL,PCBA (EC8+),True
+AST-1,91,sodio,142.36,mmol/L,PCBA (EC8+),True
+AST-1,91,potasio,4.29,mmol/L,PCBA (EC8+),True
+AST-1,91,hematocrito,41.49,%,PCBA (EC8+),True
+AST-1,91,hemoglobina,13.68,g/dL,PCBA (EC8+),True
+AST-1,91,bun,24.09,mg/dL,PCBA (EC8+),True
+AST-1,91,creatinina,1.25,mg/dL,PCBA (EC8+),True
+AST-1,98,glucosa,89.94,mg/dL,PCBA (EC8+),True
+AST-1,98,sodio,140.24,mmol/L,PCBA (EC8+),True
+AST-1,98,potasio,4.43,mmol/L,PCBA (EC8+),True
+AST-1,98,hematocrito,47.24,%,PCBA (EC8+),True
+AST-1,98,hemoglobina,15.22,g/dL,PCBA (EC8+),True
+AST-1,98,bun,21.31,mg/dL,PCBA (EC8+),True
+AST-1,98,creatinina,1.2,mg/dL,PCBA (EC8+),True
+AST-1,98,leucocitos,5.22,10^3/µL,HemoCue WBC DIFF,True
+AST-1,98,linfocitos,1520.23,cells/µL,HemoCue WBC DIFF,True
+AST-1,105,glucosa,76.55,mg/dL,PCBA (EC8+),True
+AST-1,105,sodio,139.52,mmol/L,PCBA (EC8+),True
+AST-1,105,potasio,4.29,mmol/L,PCBA (EC8+),True
+AST-1,105,hematocrito,44.5,%,PCBA (EC8+),True
+AST-1,105,hemoglobina,14.83,g/dL,PCBA (EC8+),True
+AST-1,105,bun,20.98,mg/dL,PCBA (EC8+),True
+AST-1,105,creatinina,1.28,mg/dL,PCBA (EC8+),True
+AST-1,112,glucosa,81.34,mg/dL,PCBA (EC8+),True
+AST-1,112,sodio,139.83,mmol/L,PCBA (EC8+),True
+AST-1,112,potasio,4.35,mmol/L,PCBA (EC8+),True
+AST-1,112,hematocrito,46.27,%,PCBA (EC8+),True
+AST-1,112,hemoglobina,15.0,g/dL,PCBA (EC8+),True
+AST-1,112,bun,22.47,mg/dL,PCBA (EC8+),True
+AST-1,112,creatinina,1.34,mg/dL,PCBA (EC8+),True
+AST-1,112,leucocitos,5.8,10^3/µL,HemoCue WBC DIFF,True
+AST-1,112,linfocitos,1841.19,cells/µL,HemoCue WBC DIFF,True
+AST-1,119,glucosa,90.79,mg/dL,PCBA (EC8+),True
+AST-1,119,sodio,140.4,mmol/L,PCBA (EC8+),True
+AST-1,119,potasio,4.2,mmol/L,PCBA (EC8+),True
+AST-1,119,hematocrito,44.74,%,PCBA (EC8+),True
+AST-1,119,hemoglobina,15.08,g/dL,PCBA (EC8+),True
+AST-1,119,bun,22.6,mg/dL,PCBA (EC8+),True
+AST-1,119,creatinina,1.3,mg/dL,PCBA (EC8+),True
+AST-1,126,glucosa,93.63,mg/dL,PCBA (EC8+),True
+AST-1,126,sodio,138.58,mmol/L,PCBA (EC8+),True
+AST-1,126,potasio,4.07,mmol/L,PCBA (EC8+),True
+AST-1,126,hematocrito,45.88,%,PCBA (EC8+),True
+AST-1,126,hemoglobina,14.3,g/dL,PCBA (EC8+),True
+AST-1,126,bun,23.26,mg/dL,PCBA (EC8+),True
+AST-1,126,creatinina,1.18,mg/dL,PCBA (EC8+),True
+AST-1,126,leucocitos,5.72,10^3/µL,HemoCue WBC DIFF,True
+AST-1,126,linfocitos,1742.08,cells/µL,HemoCue WBC DIFF,True
+AST-1,133,glucosa,88.17,mg/dL,PCBA (EC8+),True
+AST-1,133,sodio,141.34,mmol/L,PCBA (EC8+),True
+AST-1,133,potasio,4.4,mmol/L,PCBA (EC8+),True
+AST-1,133,hematocrito,43.26,%,PCBA (EC8+),True
+AST-1,133,hemoglobina,14.61,g/dL,PCBA (EC8+),True
+AST-1,133,bun,21.43,mg/dL,PCBA (EC8+),True
+AST-1,133,creatinina,1.21,mg/dL,PCBA (EC8+),True
+AST-1,140,glucosa,83.95,mg/dL,PCBA (EC8+),True
+AST-1,140,sodio,140.45,mmol/L,PCBA (EC8+),True
+AST-1,140,potasio,4.48,mmol/L,PCBA (EC8+),True
+AST-1,140,hematocrito,44.25,%,PCBA (EC8+),True
+AST-1,140,hemoglobina,15.07,g/dL,PCBA (EC8+),True
+AST-1,140,bun,24.22,mg/dL,PCBA (EC8+),True
+AST-1,140,creatinina,1.41,mg/dL,PCBA (EC8+),True
+AST-1,140,leucocitos,5.62,10^3/µL,HemoCue WBC DIFF,True
+AST-1,140,linfocitos,1953.96,cells/µL,HemoCue WBC DIFF,True
+AST-1,147,glucosa,83.98,mg/dL,PCBA (EC8+),True
+AST-1,147,sodio,139.37,mmol/L,PCBA (EC8+),True
+AST-1,147,potasio,4.18,mmol/L,PCBA (EC8+),True
+AST-1,147,hematocrito,42.78,%,PCBA (EC8+),True
+AST-1,147,hemoglobina,14.76,g/dL,PCBA (EC8+),True
+AST-1,147,bun,22.88,mg/dL,PCBA (EC8+),True
+AST-1,147,creatinina,1.24,mg/dL,PCBA (EC8+),True
+AST-1,154,glucosa,82.68,mg/dL,PCBA (EC8+),True
+AST-1,154,sodio,141.14,mmol/L,PCBA (EC8+),True
+AST-1,154,potasio,4.18,mmol/L,PCBA (EC8+),True
+AST-1,154,hematocrito,43.99,%,PCBA (EC8+),True
+AST-1,154,hemoglobina,15.51,g/dL,PCBA (EC8+),True
+AST-1,154,bun,20.36,mg/dL,PCBA (EC8+),True
+AST-1,154,creatinina,1.31,mg/dL,PCBA (EC8+),True
+AST-1,154,leucocitos,6.02,10^3/µL,HemoCue WBC DIFF,True
+AST-1,154,linfocitos,1749.71,cells/µL,HemoCue WBC DIFF,True
+AST-1,161,glucosa,81.36,mg/dL,PCBA (EC8+),True
+AST-1,161,sodio,140.85,mmol/L,PCBA (EC8+),True
+AST-1,161,potasio,4.68,mmol/L,PCBA (EC8+),True
+AST-1,161,hematocrito,45.14,%,PCBA (EC8+),True
+AST-1,161,hemoglobina,15.73,g/dL,PCBA (EC8+),True
+AST-1,161,bun,19.66,mg/dL,PCBA (EC8+),True
+AST-1,161,creatinina,1.36,mg/dL,PCBA (EC8+),True
+AST-1,168,glucosa,83.66,mg/dL,PCBA (EC8+),True
+AST-1,168,sodio,141.76,mmol/L,PCBA (EC8+),True
+AST-1,168,potasio,4.31,mmol/L,PCBA (EC8+),True
+AST-1,168,hematocrito,45.38,%,PCBA (EC8+),True
+AST-1,168,hemoglobina,15.27,g/dL,PCBA (EC8+),True
+AST-1,168,bun,22.26,mg/dL,PCBA (EC8+),True
+AST-1,168,creatinina,1.28,mg/dL,PCBA (EC8+),True
+AST-1,168,leucocitos,5.33,10^3/µL,HemoCue WBC DIFF,True
+AST-1,168,linfocitos,2100.54,cells/µL,HemoCue WBC DIFF,True
+AST-1,175,glucosa,84.51,mg/dL,PCBA (EC8+),True
+AST-1,175,sodio,142.69,mmol/L,PCBA (EC8+),True
+AST-1,175,potasio,3.95,mmol/L,PCBA (EC8+),True
+AST-1,175,hematocrito,44.93,%,PCBA (EC8+),True
+AST-1,175,hemoglobina,15.19,g/dL,PCBA (EC8+),True
+AST-1,175,bun,20.85,mg/dL,PCBA (EC8+),True
+AST-1,175,creatinina,1.16,mg/dL,PCBA (EC8+),True
+AST-1,182,glucosa,80.01,mg/dL,PCBA (EC8+),True
+AST-1,182,sodio,140.38,mmol/L,PCBA (EC8+),True
+AST-1,182,potasio,4.27,mmol/L,PCBA (EC8+),True
+AST-1,182,hematocrito,45.22,%,PCBA (EC8+),True
+AST-1,182,hemoglobina,14.6,g/dL,PCBA (EC8+),True
+AST-1,182,bun,20.75,mg/dL,PCBA (EC8+),True
+AST-1,182,creatinina,1.2,mg/dL,PCBA (EC8+),True
+AST-1,182,leucocitos,5.16,10^3/µL,HemoCue WBC DIFF,True
+AST-1,182,linfocitos,2078.13,cells/µL,HemoCue WBC DIFF,True
+AST-1,189,glucosa,85.0,mg/dL,PCBA (EC8+),True
+AST-1,189,sodio,143.12,mmol/L,PCBA (EC8+),True
+AST-1,189,potasio,3.81,mmol/L,PCBA (EC8+),True
+AST-1,189,hematocrito,45.49,%,PCBA (EC8+),True
+AST-1,189,hemoglobina,13.86,g/dL,PCBA (EC8+),True
+AST-1,189,bun,20.82,mg/dL,PCBA (EC8+),True
+AST-1,189,creatinina,1.24,mg/dL,PCBA (EC8+),True
+AST-1,196,glucosa,83.93,mg/dL,PCBA (EC8+),True
+AST-1,196,sodio,141.75,mmol/L,PCBA (EC8+),True
+AST-1,196,potasio,3.98,mmol/L,PCBA (EC8+),True
+AST-1,196,hematocrito,46.32,%,PCBA (EC8+),True
+AST-1,196,hemoglobina,13.23,g/dL,PCBA (EC8+),True
+AST-1,196,bun,20.87,mg/dL,PCBA (EC8+),True
+AST-1,196,creatinina,1.06,mg/dL,PCBA (EC8+),True
+AST-1,196,leucocitos,5.11,10^3/µL,HemoCue WBC DIFF,True
+AST-1,196,linfocitos,2115.5,cells/µL,HemoCue WBC DIFF,True
+AST-1,203,glucosa,84.33,mg/dL,PCBA (EC8+),True
+AST-1,203,sodio,141.86,mmol/L,PCBA (EC8+),True
+AST-1,203,potasio,4.17,mmol/L,PCBA (EC8+),True
+AST-1,203,hematocrito,44.13,%,PCBA (EC8+),True
+AST-1,203,hemoglobina,14.29,g/dL,PCBA (EC8+),True
+AST-1,203,bun,23.47,mg/dL,PCBA (EC8+),True
+AST-1,203,creatinina,1.3,mg/dL,PCBA (EC8+),True
+AST-2,-60,glucosa,77.02,mg/dL,PCBA (EC8+),True
+AST-2,-60,sodio,142.65,mmol/L,PCBA (EC8+),True
+AST-2,-60,potasio,3.78,mmol/L,PCBA (EC8+),True
+AST-2,-60,hematocrito,38.59,%,PCBA (EC8+),True
+AST-2,-60,hemoglobina,13.2,g/dL,PCBA (EC8+),True
+AST-2,-60,bun,13.9,mg/dL,PCBA (EC8+),True
+AST-2,-60,creatinina,0.97,mg/dL,PCBA (EC8+),True
+AST-2,-60,leucocitos,7.0,10^3/µL,HemoCue WBC DIFF,True
+AST-2,-60,linfocitos,2121.84,cells/µL,HemoCue WBC DIFF,True
+AST-2,-50,glucosa,74.26,mg/dL,PCBA (EC8+),True
+AST-2,-50,sodio,143.36,mmol/L,PCBA (EC8+),True
+AST-2,-50,potasio,4.13,mmol/L,PCBA (EC8+),True
+AST-2,-50,hematocrito,35.69,%,PCBA (EC8+),True
+AST-2,-50,hemoglobina,12.52,g/dL,PCBA (EC8+),True
+AST-2,-50,bun,15.82,mg/dL,PCBA (EC8+),True
+AST-2,-50,creatinina,0.88,mg/dL,PCBA (EC8+),True
+AST-2,-50,leucocitos,5.33,10^3/µL,HemoCue WBC DIFF,True
+AST-2,-50,linfocitos,2441.74,cells/µL,HemoCue WBC DIFF,True
+AST-2,-40,glucosa,76.36,mg/dL,PCBA (EC8+),True
+AST-2,-40,sodio,142.35,mmol/L,PCBA (EC8+),True
+AST-2,-40,potasio,3.85,mmol/L,PCBA (EC8+),True
+AST-2,-40,hematocrito,40.14,%,PCBA (EC8+),True
+AST-2,-40,hemoglobina,12.27,g/dL,PCBA (EC8+),True
+AST-2,-40,bun,15.77,mg/dL,PCBA (EC8+),True
+AST-2,-40,creatinina,0.96,mg/dL,PCBA (EC8+),True
+AST-2,-40,leucocitos,7.23,10^3/µL,HemoCue WBC DIFF,True
+AST-2,-40,linfocitos,2188.25,cells/µL,HemoCue WBC DIFF,True
+AST-2,-30,glucosa,70.18,mg/dL,PCBA (EC8+),True
+AST-2,-30,sodio,139.38,mmol/L,PCBA (EC8+),True
+AST-2,-30,potasio,3.8,mmol/L,PCBA (EC8+),True
+AST-2,-30,hematocrito,36.87,%,PCBA (EC8+),True
+AST-2,-30,hemoglobina,12.09,g/dL,PCBA (EC8+),True
+AST-2,-30,bun,13.93,mg/dL,PCBA (EC8+),True
+AST-2,-30,creatinina,0.88,mg/dL,PCBA (EC8+),True
+AST-2,-30,leucocitos,6.65,10^3/µL,HemoCue WBC DIFF,True
+AST-2,-30,linfocitos,2270.61,cells/µL,HemoCue WBC DIFF,True
+AST-2,-20,glucosa,63.57,mg/dL,PCBA (EC8+),True
+AST-2,-20,sodio,141.91,mmol/L,PCBA (EC8+),True
+AST-2,-20,potasio,4.25,mmol/L,PCBA (EC8+),True
+AST-2,-20,hematocrito,40.36,%,PCBA (EC8+),True
+AST-2,-20,hemoglobina,12.4,g/dL,PCBA (EC8+),True
+AST-2,-20,bun,15.25,mg/dL,PCBA (EC8+),True
+AST-2,-20,creatinina,0.79,mg/dL,PCBA (EC8+),True
+AST-2,-20,leucocitos,6.49,10^3/µL,HemoCue WBC DIFF,True
+AST-2,-20,linfocitos,2348.27,cells/µL,HemoCue WBC DIFF,True
+AST-2,-10,glucosa,77.41,mg/dL,PCBA (EC8+),True
+AST-2,-10,sodio,141.98,mmol/L,PCBA (EC8+),True
+AST-2,-10,potasio,3.85,mmol/L,PCBA (EC8+),True
+AST-2,-10,hematocrito,39.5,%,PCBA (EC8+),True
+AST-2,-10,hemoglobina,12.66,g/dL,PCBA (EC8+),True
+AST-2,-10,bun,13.94,mg/dL,PCBA (EC8+),True
+AST-2,-10,creatinina,0.88,mg/dL,PCBA (EC8+),True
+AST-2,-10,leucocitos,5.82,10^3/µL,HemoCue WBC DIFF,True
+AST-2,-10,linfocitos,2179.42,cells/µL,HemoCue WBC DIFF,True
+AST-2,0,glucosa,80.12,mg/dL,PCBA (EC8+),True
+AST-2,0,sodio,143.6,mmol/L,PCBA (EC8+),True
+AST-2,0,potasio,3.85,mmol/L,PCBA (EC8+),True
+AST-2,0,hematocrito,40.95,%,PCBA (EC8+),True
+AST-2,0,hemoglobina,12.31,g/dL,PCBA (EC8+),True
+AST-2,0,bun,13.93,mg/dL,PCBA (EC8+),True
+AST-2,0,creatinina,0.89,mg/dL,PCBA (EC8+),True
+AST-2,0,leucocitos,6.79,10^3/µL,HemoCue WBC DIFF,True
+AST-2,0,linfocitos,2627.65,cells/µL,HemoCue WBC DIFF,True
+AST-2,7,glucosa,59.75,mg/dL,PCBA (EC8+),True
+AST-2,7,sodio,140.57,mmol/L,PCBA (EC8+),True
+AST-2,7,potasio,4.33,mmol/L,PCBA (EC8+),True
+AST-2,7,hematocrito,39.43,%,PCBA (EC8+),True
+AST-2,7,hemoglobina,13.75,g/dL,PCBA (EC8+),True
+AST-2,7,bun,13.83,mg/dL,PCBA (EC8+),True
+AST-2,7,creatinina,0.93,mg/dL,PCBA (EC8+),True
+AST-2,14,glucosa,71.11,mg/dL,PCBA (EC8+),True
+AST-2,14,sodio,141.46,mmol/L,PCBA (EC8+),True
+AST-2,14,potasio,3.67,mmol/L,PCBA (EC8+),True
+AST-2,14,hematocrito,41.23,%,PCBA (EC8+),True
+AST-2,14,hemoglobina,13.18,g/dL,PCBA (EC8+),True
+AST-2,14,bun,15.08,mg/dL,PCBA (EC8+),True
+AST-2,14,creatinina,0.92,mg/dL,PCBA (EC8+),True
+AST-2,14,leucocitos,5.48,10^3/µL,HemoCue WBC DIFF,True
+AST-2,14,linfocitos,1895.68,cells/µL,HemoCue WBC DIFF,True
+AST-2,21,glucosa,74.48,mg/dL,PCBA (EC8+),True
+AST-2,21,sodio,142.93,mmol/L,PCBA (EC8+),True
+AST-2,21,potasio,4.21,mmol/L,PCBA (EC8+),True
+AST-2,21,hematocrito,39.39,%,PCBA (EC8+),True
+AST-2,21,hemoglobina,13.37,g/dL,PCBA (EC8+),True
+AST-2,21,bun,13.53,mg/dL,PCBA (EC8+),True
+AST-2,21,creatinina,1.05,mg/dL,PCBA (EC8+),True
+AST-2,28,glucosa,72.43,mg/dL,PCBA (EC8+),True
+AST-2,28,sodio,141.78,mmol/L,PCBA (EC8+),True
+AST-2,28,potasio,3.82,mmol/L,PCBA (EC8+),True
+AST-2,28,hematocrito,36.55,%,PCBA (EC8+),True
+AST-2,28,hemoglobina,12.62,g/dL,PCBA (EC8+),True
+AST-2,28,bun,15.8,mg/dL,PCBA (EC8+),True
+AST-2,28,creatinina,0.94,mg/dL,PCBA (EC8+),True
+AST-2,28,leucocitos,5.58,10^3/µL,HemoCue WBC DIFF,True
+AST-2,28,linfocitos,2016.26,cells/µL,HemoCue WBC DIFF,True
+AST-2,35,glucosa,90.79,mg/dL,PCBA (EC8+),True
+AST-2,35,sodio,144.43,mmol/L,PCBA (EC8+),True
+AST-2,35,potasio,4.0,mmol/L,PCBA (EC8+),True
+AST-2,35,hematocrito,39.51,%,PCBA (EC8+),True
+AST-2,35,hemoglobina,11.96,g/dL,PCBA (EC8+),True
+AST-2,35,bun,17.74,mg/dL,PCBA (EC8+),True
+AST-2,35,creatinina,0.78,mg/dL,PCBA (EC8+),True
+AST-2,42,glucosa,63.63,mg/dL,PCBA (EC8+),True
+AST-2,42,sodio,144.11,mmol/L,PCBA (EC8+),True
+AST-2,42,potasio,3.73,mmol/L,PCBA (EC8+),True
+AST-2,42,hematocrito,40.47,%,PCBA (EC8+),True
+AST-2,42,hemoglobina,12.8,g/dL,PCBA (EC8+),True
+AST-2,42,bun,14.93,mg/dL,PCBA (EC8+),True
+AST-2,42,creatinina,0.96,mg/dL,PCBA (EC8+),True
+AST-2,42,leucocitos,5.87,10^3/µL,HemoCue WBC DIFF,True
+AST-2,42,linfocitos,1880.91,cells/µL,HemoCue WBC DIFF,True
+AST-2,49,glucosa,68.38,mg/dL,PCBA (EC8+),True
+AST-2,49,sodio,140.44,mmol/L,PCBA (EC8+),True
+AST-2,49,potasio,4.1,mmol/L,PCBA (EC8+),True
+AST-2,49,hematocrito,40.53,%,PCBA (EC8+),True
+AST-2,49,hemoglobina,12.35,g/dL,PCBA (EC8+),True
+AST-2,49,bun,16.42,mg/dL,PCBA (EC8+),True
+AST-2,49,creatinina,0.86,mg/dL,PCBA (EC8+),True
+AST-2,56,glucosa,78.41,mg/dL,PCBA (EC8+),True
+AST-2,56,sodio,141.26,mmol/L,PCBA (EC8+),True
+AST-2,56,potasio,3.9,mmol/L,PCBA (EC8+),True
+AST-2,56,hematocrito,38.67,%,PCBA (EC8+),True
+AST-2,56,hemoglobina,12.85,g/dL,PCBA (EC8+),True
+AST-2,56,bun,15.76,mg/dL,PCBA (EC8+),True
+AST-2,56,creatinina,0.93,mg/dL,PCBA (EC8+),True
+AST-2,56,leucocitos,6.37,10^3/µL,HemoCue WBC DIFF,True
+AST-2,56,linfocitos,1647.34,cells/µL,HemoCue WBC DIFF,True
+AST-2,63,glucosa,63.89,mg/dL,PCBA (EC8+),True
+AST-2,63,sodio,141.08,mmol/L,PCBA (EC8+),True
+AST-2,63,potasio,3.98,mmol/L,PCBA (EC8+),True
+AST-2,63,hematocrito,38.74,%,PCBA (EC8+),True
+AST-2,63,hemoglobina,12.32,g/dL,PCBA (EC8+),True
+AST-2,63,bun,14.95,mg/dL,PCBA (EC8+),True
+AST-2,63,creatinina,0.85,mg/dL,PCBA (EC8+),True
+AST-2,70,glucosa,72.21,mg/dL,PCBA (EC8+),True
+AST-2,70,sodio,141.52,mmol/L,PCBA (EC8+),True
+AST-2,70,potasio,3.92,mmol/L,PCBA (EC8+),True
+AST-2,70,hematocrito,37.06,%,PCBA (EC8+),True
+AST-2,70,hemoglobina,12.94,g/dL,PCBA (EC8+),True
+AST-2,70,bun,15.4,mg/dL,PCBA (EC8+),True
+AST-2,70,creatinina,0.89,mg/dL,PCBA (EC8+),True
+AST-2,70,leucocitos,6.48,10^3/µL,HemoCue WBC DIFF,True
+AST-2,70,linfocitos,1812.68,cells/µL,HemoCue WBC DIFF,True
+AST-2,77,glucosa,73.51,mg/dL,PCBA (EC8+),True
+AST-2,77,sodio,142.26,mmol/L,PCBA (EC8+),True
+AST-2,77,potasio,4.01,mmol/L,PCBA (EC8+),True
+AST-2,77,hematocrito,37.7,%,PCBA (EC8+),True
+AST-2,77,hemoglobina,12.51,g/dL,PCBA (EC8+),True
+AST-2,77,bun,14.85,mg/dL,PCBA (EC8+),True
+AST-2,77,creatinina,0.9,mg/dL,PCBA (EC8+),True
+AST-2,84,glucosa,74.16,mg/dL,PCBA (EC8+),True
+AST-2,84,sodio,140.79,mmol/L,PCBA (EC8+),True
+AST-2,84,potasio,3.97,mmol/L,PCBA (EC8+),True
+AST-2,84,hematocrito,37.35,%,PCBA (EC8+),True
+AST-2,84,hemoglobina,12.76,g/dL,PCBA (EC8+),True
+AST-2,84,bun,17.39,mg/dL,PCBA (EC8+),True
+AST-2,84,creatinina,0.87,mg/dL,PCBA (EC8+),True
+AST-2,84,leucocitos,5.96,10^3/µL,HemoCue WBC DIFF,True
+AST-2,84,linfocitos,1920.12,cells/µL,HemoCue WBC DIFF,True
+AST-2,91,glucosa,78.97,mg/dL,PCBA (EC8+),True
+AST-2,91,sodio,141.96,mmol/L,PCBA (EC8+),True
+AST-2,91,potasio,3.8,mmol/L,PCBA (EC8+),True
+AST-2,91,hematocrito,37.99,%,PCBA (EC8+),True
+AST-2,91,hemoglobina,13.18,g/dL,PCBA (EC8+),True
+AST-2,91,bun,15.02,mg/dL,PCBA (EC8+),True
+AST-2,91,creatinina,0.92,mg/dL,PCBA (EC8+),True
+AST-2,98,glucosa,79.36,mg/dL,PCBA (EC8+),True
+AST-2,98,sodio,141.44,mmol/L,PCBA (EC8+),True
+AST-2,98,potasio,3.58,mmol/L,PCBA (EC8+),True
+AST-2,98,hematocrito,38.59,%,PCBA (EC8+),True
+AST-2,98,hemoglobina,12.76,g/dL,PCBA (EC8+),True
+AST-2,98,bun,13.54,mg/dL,PCBA (EC8+),True
+AST-2,98,creatinina,0.8,mg/dL,PCBA (EC8+),True
+AST-2,98,leucocitos,5.74,10^3/µL,HemoCue WBC DIFF,True
+AST-2,98,linfocitos,1915.91,cells/µL,HemoCue WBC DIFF,True
+AST-2,105,glucosa,78.08,mg/dL,PCBA (EC8+),True
+AST-2,105,sodio,141.93,mmol/L,PCBA (EC8+),True
+AST-2,105,potasio,3.62,mmol/L,PCBA (EC8+),True
+AST-2,105,hematocrito,37.51,%,PCBA (EC8+),True
+AST-2,105,hemoglobina,12.66,g/dL,PCBA (EC8+),True
+AST-2,105,bun,13.56,mg/dL,PCBA (EC8+),True
+AST-2,105,creatinina,0.88,mg/dL,PCBA (EC8+),True
+AST-2,112,glucosa,78.12,mg/dL,PCBA (EC8+),True
+AST-2,112,sodio,141.2,mmol/L,PCBA (EC8+),True
+AST-2,112,potasio,3.89,mmol/L,PCBA (EC8+),True
+AST-2,112,hematocrito,36.88,%,PCBA (EC8+),True
+AST-2,112,hemoglobina,12.94,g/dL,PCBA (EC8+),True
+AST-2,112,bun,15.27,mg/dL,PCBA (EC8+),True
+AST-2,112,creatinina,0.83,mg/dL,PCBA (EC8+),True
+AST-2,112,leucocitos,5.3,10^3/µL,HemoCue WBC DIFF,True
+AST-2,112,linfocitos,2191.66,cells/µL,HemoCue WBC DIFF,True
+AST-2,119,glucosa,70.36,mg/dL,PCBA (EC8+),True
+AST-2,119,sodio,141.93,mmol/L,PCBA (EC8+),True
+AST-2,119,potasio,4.38,mmol/L,PCBA (EC8+),True
+AST-2,119,hematocrito,39.63,%,PCBA (EC8+),True
+AST-2,119,hemoglobina,13.33,g/dL,PCBA (EC8+),True
+AST-2,119,bun,16.48,mg/dL,PCBA (EC8+),True
+AST-2,119,creatinina,0.95,mg/dL,PCBA (EC8+),True
+AST-2,126,glucosa,63.36,mg/dL,PCBA (EC8+),True
+AST-2,126,sodio,142.4,mmol/L,PCBA (EC8+),True
+AST-2,126,potasio,3.71,mmol/L,PCBA (EC8+),True
+AST-2,126,hematocrito,38.14,%,PCBA (EC8+),True
+AST-2,126,hemoglobina,13.62,g/dL,PCBA (EC8+),True
+AST-2,126,bun,15.09,mg/dL,PCBA (EC8+),True
+AST-2,126,creatinina,0.91,mg/dL,PCBA (EC8+),True
+AST-2,126,leucocitos,5.47,10^3/µL,HemoCue WBC DIFF,True
+AST-2,126,linfocitos,2146.74,cells/µL,HemoCue WBC DIFF,True
+AST-2,133,glucosa,75.26,mg/dL,PCBA (EC8+),True
+AST-2,133,sodio,141.75,mmol/L,PCBA (EC8+),True
+AST-2,133,potasio,3.7,mmol/L,PCBA (EC8+),True
+AST-2,133,hematocrito,40.25,%,PCBA (EC8+),True
+AST-2,133,hemoglobina,13.25,g/dL,PCBA (EC8+),True
+AST-2,133,bun,15.03,mg/dL,PCBA (EC8+),True
+AST-2,133,creatinina,0.93,mg/dL,PCBA (EC8+),True
+AST-2,140,glucosa,76.93,mg/dL,PCBA (EC8+),True
+AST-2,140,sodio,142.57,mmol/L,PCBA (EC8+),True
+AST-2,140,potasio,3.59,mmol/L,PCBA (EC8+),True
+AST-2,140,hematocrito,37.5,%,PCBA (EC8+),True
+AST-2,140,hemoglobina,12.14,g/dL,PCBA (EC8+),True
+AST-2,140,bun,15.63,mg/dL,PCBA (EC8+),True
+AST-2,140,creatinina,0.8,mg/dL,PCBA (EC8+),True
+AST-2,140,leucocitos,6.31,10^3/µL,HemoCue WBC DIFF,True
+AST-2,140,linfocitos,1992.2,cells/µL,HemoCue WBC DIFF,True
+AST-2,147,glucosa,80.65,mg/dL,PCBA (EC8+),True
+AST-2,147,sodio,143.44,mmol/L,PCBA (EC8+),True
+AST-2,147,potasio,3.71,mmol/L,PCBA (EC8+),True
+AST-2,147,hematocrito,39.57,%,PCBA (EC8+),True
+AST-2,147,hemoglobina,12.39,g/dL,PCBA (EC8+),True
+AST-2,147,bun,13.81,mg/dL,PCBA (EC8+),True
+AST-2,147,creatinina,0.93,mg/dL,PCBA (EC8+),True
+AST-2,154,glucosa,82.71,mg/dL,PCBA (EC8+),True
+AST-2,154,sodio,144.28,mmol/L,PCBA (EC8+),True
+AST-2,154,potasio,3.78,mmol/L,PCBA (EC8+),True
+AST-2,154,hematocrito,37.7,%,PCBA (EC8+),True
+AST-2,154,hemoglobina,13.06,g/dL,PCBA (EC8+),True
+AST-2,154,bun,15.24,mg/dL,PCBA (EC8+),True
+AST-2,154,creatinina,0.88,mg/dL,PCBA (EC8+),True
+AST-2,154,leucocitos,6.29,10^3/µL,HemoCue WBC DIFF,True
+AST-2,154,linfocitos,1904.64,cells/µL,HemoCue WBC DIFF,True
+AST-2,161,glucosa,73.63,mg/dL,PCBA (EC8+),True
+AST-2,161,sodio,142.69,mmol/L,PCBA (EC8+),True
+AST-2,161,potasio,3.92,mmol/L,PCBA (EC8+),True
+AST-2,161,hematocrito,37.78,%,PCBA (EC8+),True
+AST-2,161,hemoglobina,11.79,g/dL,PCBA (EC8+),True
+AST-2,161,bun,13.45,mg/dL,PCBA (EC8+),True
+AST-2,161,creatinina,0.94,mg/dL,PCBA (EC8+),True
+AST-2,168,glucosa,87.69,mg/dL,PCBA (EC8+),True
+AST-2,168,sodio,143.47,mmol/L,PCBA (EC8+),True
+AST-2,168,potasio,3.94,mmol/L,PCBA (EC8+),True
+AST-2,168,hematocrito,38.32,%,PCBA (EC8+),True
+AST-2,168,hemoglobina,12.83,g/dL,PCBA (EC8+),True
+AST-2,168,bun,16.36,mg/dL,PCBA (EC8+),True
+AST-2,168,creatinina,0.85,mg/dL,PCBA (EC8+),True
+AST-2,168,leucocitos,6.3,10^3/µL,HemoCue WBC DIFF,True
+AST-2,168,linfocitos,1916.93,cells/µL,HemoCue WBC DIFF,True
+AST-2,175,glucosa,80.99,mg/dL,PCBA (EC8+),True
+AST-2,175,sodio,140.54,mmol/L,PCBA (EC8+),True
+AST-2,175,potasio,4.05,mmol/L,PCBA (EC8+),True
+AST-2,175,hematocrito,35.96,%,PCBA (EC8+),True
+AST-2,175,hemoglobina,12.54,g/dL,PCBA (EC8+),True
+AST-2,175,bun,16.94,mg/dL,PCBA (EC8+),True
+AST-2,175,creatinina,0.89,mg/dL,PCBA (EC8+),True
+AST-2,182,glucosa,79.73,mg/dL,PCBA (EC8+),True
+AST-2,182,sodio,141.78,mmol/L,PCBA (EC8+),True
+AST-2,182,potasio,3.86,mmol/L,PCBA (EC8+),True
+AST-2,182,hematocrito,37.22,%,PCBA (EC8+),True
+AST-2,182,hemoglobina,12.89,g/dL,PCBA (EC8+),True
+AST-2,182,bun,16.78,mg/dL,PCBA (EC8+),True
+AST-2,182,creatinina,0.93,mg/dL,PCBA (EC8+),True
+AST-2,182,leucocitos,6.68,10^3/µL,HemoCue WBC DIFF,True
+AST-2,182,linfocitos,1952.54,cells/µL,HemoCue WBC DIFF,True
+AST-2,189,glucosa,84.9,mg/dL,PCBA (EC8+),True
+AST-2,189,sodio,139.0,mmol/L,PCBA (EC8+),True
+AST-2,189,potasio,4.3,mmol/L,PCBA (EC8+),True
+AST-2,189,hematocrito,40.06,%,PCBA (EC8+),True
+AST-2,189,hemoglobina,12.93,g/dL,PCBA (EC8+),True
+AST-2,189,bun,16.57,mg/dL,PCBA (EC8+),True
+AST-2,189,creatinina,0.98,mg/dL,PCBA (EC8+),True
+AST-2,196,glucosa,83.07,mg/dL,PCBA (EC8+),True
+AST-2,196,sodio,141.16,mmol/L,PCBA (EC8+),True
+AST-2,196,potasio,3.79,mmol/L,PCBA (EC8+),True
+AST-2,196,hematocrito,38.85,%,PCBA (EC8+),True
+AST-2,196,hemoglobina,12.85,g/dL,PCBA (EC8+),True
+AST-2,196,bun,15.28,mg/dL,PCBA (EC8+),True
+AST-2,196,creatinina,0.92,mg/dL,PCBA (EC8+),True
+AST-2,196,leucocitos,6.88,10^3/µL,HemoCue WBC DIFF,True
+AST-2,196,linfocitos,1995.91,cells/µL,HemoCue WBC DIFF,True
+AST-2,203,glucosa,82.47,mg/dL,PCBA (EC8+),True
+AST-2,203,sodio,142.98,mmol/L,PCBA (EC8+),True
+AST-2,203,potasio,4.12,mmol/L,PCBA (EC8+),True
+AST-2,203,hematocrito,39.5,%,PCBA (EC8+),True
+AST-2,203,hemoglobina,13.44,g/dL,PCBA (EC8+),True
+AST-2,203,bun,17.59,mg/dL,PCBA (EC8+),True
+AST-2,203,creatinina,0.86,mg/dL,PCBA (EC8+),True
+AST-3,-60,glucosa,71.38,mg/dL,PCBA (EC8+),True
+AST-3,-60,sodio,136.93,mmol/L,PCBA (EC8+),True
+AST-3,-60,potasio,3.13,mmol/L,PCBA (EC8+),True
+AST-3,-60,hematocrito,43.0,%,PCBA (EC8+),True
+AST-3,-60,hemoglobina,13.73,g/dL,PCBA (EC8+),True
+AST-3,-60,bun,22.05,mg/dL,PCBA (EC8+),True
+AST-3,-60,creatinina,1.05,mg/dL,PCBA (EC8+),True
+AST-3,-60,leucocitos,10.52,10^3/µL,HemoCue WBC DIFF,True
+AST-3,-60,linfocitos,3721.57,cells/µL,HemoCue WBC DIFF,True
+AST-3,-50,glucosa,77.56,mg/dL,PCBA (EC8+),True
+AST-3,-50,sodio,139.65,mmol/L,PCBA (EC8+),True
+AST-3,-50,potasio,3.9,mmol/L,PCBA (EC8+),True
+AST-3,-50,hematocrito,42.73,%,PCBA (EC8+),True
+AST-3,-50,hemoglobina,14.41,g/dL,PCBA (EC8+),True
+AST-3,-50,bun,20.26,mg/dL,PCBA (EC8+),True
+AST-3,-50,creatinina,0.99,mg/dL,PCBA (EC8+),True
+AST-3,-50,leucocitos,10.1,10^3/µL,HemoCue WBC DIFF,True
+AST-3,-50,linfocitos,3949.64,cells/µL,HemoCue WBC DIFF,True
+AST-3,-40,glucosa,80.35,mg/dL,PCBA (EC8+),True
+AST-3,-40,sodio,140.4,mmol/L,PCBA (EC8+),True
+AST-3,-40,potasio,3.17,mmol/L,PCBA (EC8+),True
+AST-3,-40,hematocrito,40.95,%,PCBA (EC8+),True
+AST-3,-40,hemoglobina,13.71,g/dL,PCBA (EC8+),True
+AST-3,-40,bun,17.1,mg/dL,PCBA (EC8+),True
+AST-3,-40,creatinina,1.01,mg/dL,PCBA (EC8+),True
+AST-3,-40,leucocitos,9.13,10^3/µL,HemoCue WBC DIFF,True
+AST-3,-40,linfocitos,3746.83,cells/µL,HemoCue WBC DIFF,True
+AST-3,-30,glucosa,74.72,mg/dL,PCBA (EC8+),True
+AST-3,-30,sodio,138.9,mmol/L,PCBA (EC8+),True
+AST-3,-30,potasio,3.87,mmol/L,PCBA (EC8+),True
+AST-3,-30,hematocrito,43.65,%,PCBA (EC8+),True
+AST-3,-30,hemoglobina,14.17,g/dL,PCBA (EC8+),True
+AST-3,-30,bun,20.6,mg/dL,PCBA (EC8+),True
+AST-3,-30,creatinina,1.01,mg/dL,PCBA (EC8+),True
+AST-3,-30,leucocitos,10.34,10^3/µL,HemoCue WBC DIFF,True
+AST-3,-30,linfocitos,4284.88,cells/µL,HemoCue WBC DIFF,True
+AST-3,-20,glucosa,68.93,mg/dL,PCBA (EC8+),True
+AST-3,-20,sodio,137.22,mmol/L,PCBA (EC8+),True
+AST-3,-20,potasio,3.51,mmol/L,PCBA (EC8+),True
+AST-3,-20,hematocrito,41.15,%,PCBA (EC8+),True
+AST-3,-20,hemoglobina,13.63,g/dL,PCBA (EC8+),True
+AST-3,-20,bun,19.83,mg/dL,PCBA (EC8+),True
+AST-3,-20,creatinina,1.06,mg/dL,PCBA (EC8+),True
+AST-3,-20,leucocitos,9.84,10^3/µL,HemoCue WBC DIFF,True
+AST-3,-20,linfocitos,3855.01,cells/µL,HemoCue WBC DIFF,True
+AST-3,-10,glucosa,78.8,mg/dL,PCBA (EC8+),True
+AST-3,-10,sodio,136.88,mmol/L,PCBA (EC8+),True
+AST-3,-10,potasio,3.51,mmol/L,PCBA (EC8+),True
+AST-3,-10,hematocrito,40.99,%,PCBA (EC8+),True
+AST-3,-10,hemoglobina,13.82,g/dL,PCBA (EC8+),True
+AST-3,-10,bun,21.48,mg/dL,PCBA (EC8+),True
+AST-3,-10,creatinina,1.02,mg/dL,PCBA (EC8+),True
+AST-3,-10,leucocitos,9.0,10^3/µL,HemoCue WBC DIFF,True
+AST-3,-10,linfocitos,3495.37,cells/µL,HemoCue WBC DIFF,True
+AST-3,0,glucosa,63.54,mg/dL,PCBA (EC8+),True
+AST-3,0,sodio,137.87,mmol/L,PCBA (EC8+),True
+AST-3,0,potasio,3.33,mmol/L,PCBA (EC8+),True
+AST-3,0,hematocrito,42.04,%,PCBA (EC8+),True
+AST-3,0,hemoglobina,13.71,g/dL,PCBA (EC8+),True
+AST-3,0,bun,19.79,mg/dL,PCBA (EC8+),True
+AST-3,0,creatinina,0.98,mg/dL,PCBA (EC8+),True
+AST-3,0,leucocitos,10.21,10^3/µL,HemoCue WBC DIFF,True
+AST-3,0,linfocitos,3760.68,cells/µL,HemoCue WBC DIFF,True
+AST-3,7,glucosa,65.53,mg/dL,PCBA (EC8+),True
+AST-3,7,sodio,140.8,mmol/L,PCBA (EC8+),True
+AST-3,7,potasio,3.6,mmol/L,PCBA (EC8+),True
+AST-3,7,hematocrito,42.51,%,PCBA (EC8+),True
+AST-3,7,hemoglobina,14.32,g/dL,PCBA (EC8+),True
+AST-3,7,bun,21.09,mg/dL,PCBA (EC8+),True
+AST-3,7,creatinina,1.06,mg/dL,PCBA (EC8+),True
+AST-3,14,glucosa,74.36,mg/dL,PCBA (EC8+),True
+AST-3,14,sodio,139.79,mmol/L,PCBA (EC8+),True
+AST-3,14,potasio,3.22,mmol/L,PCBA (EC8+),True
+AST-3,14,hematocrito,42.95,%,PCBA (EC8+),True
+AST-3,14,hemoglobina,14.0,g/dL,PCBA (EC8+),True
+AST-3,14,bun,20.82,mg/dL,PCBA (EC8+),True
+AST-3,14,creatinina,1.03,mg/dL,PCBA (EC8+),True
+AST-3,14,leucocitos,6.94,10^3/µL,HemoCue WBC DIFF,True
+AST-3,14,linfocitos,3507.38,cells/µL,HemoCue WBC DIFF,True
+AST-3,21,glucosa,79.67,mg/dL,PCBA (EC8+),True
+AST-3,21,sodio,138.21,mmol/L,PCBA (EC8+),True
+AST-3,21,potasio,3.44,mmol/L,PCBA (EC8+),True
+AST-3,21,hematocrito,42.44,%,PCBA (EC8+),True
+AST-3,21,hemoglobina,14.0,g/dL,PCBA (EC8+),True
+AST-3,21,bun,22.23,mg/dL,PCBA (EC8+),True
+AST-3,21,creatinina,1.04,mg/dL,PCBA (EC8+),True
+AST-3,28,glucosa,71.05,mg/dL,PCBA (EC8+),True
+AST-3,28,sodio,139.42,mmol/L,PCBA (EC8+),True
+AST-3,28,potasio,3.4,mmol/L,PCBA (EC8+),True
+AST-3,28,hematocrito,42.01,%,PCBA (EC8+),True
+AST-3,28,hemoglobina,13.6,g/dL,PCBA (EC8+),True
+AST-3,28,bun,24.06,mg/dL,PCBA (EC8+),True
+AST-3,28,creatinina,0.97,mg/dL,PCBA (EC8+),True
+AST-3,28,leucocitos,8.49,10^3/µL,HemoCue WBC DIFF,True
+AST-3,28,linfocitos,3097.22,cells/µL,HemoCue WBC DIFF,True
+AST-3,35,glucosa,80.72,mg/dL,PCBA (EC8+),True
+AST-3,35,sodio,138.47,mmol/L,PCBA (EC8+),True
+AST-3,35,potasio,3.55,mmol/L,PCBA (EC8+),True
+AST-3,35,hematocrito,43.4,%,PCBA (EC8+),True
+AST-3,35,hemoglobina,14.42,g/dL,PCBA (EC8+),True
+AST-3,35,bun,21.57,mg/dL,PCBA (EC8+),True
+AST-3,35,creatinina,0.97,mg/dL,PCBA (EC8+),True
+AST-3,42,glucosa,71.66,mg/dL,PCBA (EC8+),True
+AST-3,42,sodio,138.12,mmol/L,PCBA (EC8+),True
+AST-3,42,potasio,3.63,mmol/L,PCBA (EC8+),True
+AST-3,42,hematocrito,42.3,%,PCBA (EC8+),True
+AST-3,42,hemoglobina,14.06,g/dL,PCBA (EC8+),True
+AST-3,42,bun,21.29,mg/dL,PCBA (EC8+),True
+AST-3,42,creatinina,1.05,mg/dL,PCBA (EC8+),True
+AST-3,42,leucocitos,8.72,10^3/µL,HemoCue WBC DIFF,True
+AST-3,42,linfocitos,3480.6,cells/µL,HemoCue WBC DIFF,True
+AST-3,49,glucosa,70.13,mg/dL,PCBA (EC8+),True
+AST-3,49,sodio,137.33,mmol/L,PCBA (EC8+),True
+AST-3,49,potasio,3.49,mmol/L,PCBA (EC8+),True
+AST-3,49,hematocrito,41.94,%,PCBA (EC8+),True
+AST-3,49,hemoglobina,13.47,g/dL,PCBA (EC8+),True
+AST-3,49,bun,21.6,mg/dL,PCBA (EC8+),True
+AST-3,49,creatinina,1.08,mg/dL,PCBA (EC8+),True
+AST-3,56,glucosa,71.53,mg/dL,PCBA (EC8+),True
+AST-3,56,sodio,139.08,mmol/L,PCBA (EC8+),True
+AST-3,56,potasio,3.72,mmol/L,PCBA (EC8+),True
+AST-3,56,hematocrito,40.58,%,PCBA (EC8+),True
+AST-3,56,hemoglobina,12.74,g/dL,PCBA (EC8+),True
+AST-3,56,bun,21.43,mg/dL,PCBA (EC8+),True
+AST-3,56,creatinina,1.13,mg/dL,PCBA (EC8+),True
+AST-3,56,leucocitos,8.24,10^3/µL,HemoCue WBC DIFF,True
+AST-3,56,linfocitos,3406.27,cells/µL,HemoCue WBC DIFF,True
+AST-3,63,glucosa,76.02,mg/dL,PCBA (EC8+),True
+AST-3,63,sodio,137.1,mmol/L,PCBA (EC8+),True
+AST-3,63,potasio,3.63,mmol/L,PCBA (EC8+),True
+AST-3,63,hematocrito,38.78,%,PCBA (EC8+),True
+AST-3,63,hemoglobina,13.88,g/dL,PCBA (EC8+),True
+AST-3,63,bun,19.62,mg/dL,PCBA (EC8+),True
+AST-3,63,creatinina,1.01,mg/dL,PCBA (EC8+),True
+AST-3,70,glucosa,77.03,mg/dL,PCBA (EC8+),True
+AST-3,70,sodio,138.88,mmol/L,PCBA (EC8+),True
+AST-3,70,potasio,3.36,mmol/L,PCBA (EC8+),True
+AST-3,70,hematocrito,41.72,%,PCBA (EC8+),True
+AST-3,70,hemoglobina,13.7,g/dL,PCBA (EC8+),True
+AST-3,70,bun,21.02,mg/dL,PCBA (EC8+),True
+AST-3,70,creatinina,0.94,mg/dL,PCBA (EC8+),True
+AST-3,70,leucocitos,9.43,10^3/µL,HemoCue WBC DIFF,True
+AST-3,70,linfocitos,3009.12,cells/µL,HemoCue WBC DIFF,True
+AST-3,77,glucosa,69.61,mg/dL,PCBA (EC8+),True
+AST-3,77,sodio,138.55,mmol/L,PCBA (EC8+),True
+AST-3,77,potasio,3.33,mmol/L,PCBA (EC8+),True
+AST-3,77,hematocrito,43.32,%,PCBA (EC8+),True
+AST-3,77,hemoglobina,13.68,g/dL,PCBA (EC8+),True
+AST-3,77,bun,20.65,mg/dL,PCBA (EC8+),True
+AST-3,77,creatinina,1.06,mg/dL,PCBA (EC8+),True
+AST-3,84,glucosa,74.12,mg/dL,PCBA (EC8+),True
+AST-3,84,sodio,138.09,mmol/L,PCBA (EC8+),True
+AST-3,84,potasio,3.4,mmol/L,PCBA (EC8+),True
+AST-3,84,hematocrito,40.76,%,PCBA (EC8+),True
+AST-3,84,hemoglobina,13.33,g/dL,PCBA (EC8+),True
+AST-3,84,bun,18.33,mg/dL,PCBA (EC8+),True
+AST-3,84,creatinina,1.04,mg/dL,PCBA (EC8+),True
+AST-3,84,leucocitos,8.8,10^3/µL,HemoCue WBC DIFF,True
+AST-3,84,linfocitos,3474.94,cells/µL,HemoCue WBC DIFF,True
+AST-3,91,glucosa,77.05,mg/dL,PCBA (EC8+),True
+AST-3,91,sodio,138.44,mmol/L,PCBA (EC8+),True
+AST-3,91,potasio,3.64,mmol/L,PCBA (EC8+),True
+AST-3,91,hematocrito,42.49,%,PCBA (EC8+),True
+AST-3,91,hemoglobina,13.43,g/dL,PCBA (EC8+),True
+AST-3,91,bun,21.37,mg/dL,PCBA (EC8+),True
+AST-3,91,creatinina,1.09,mg/dL,PCBA (EC8+),True
+AST-3,98,glucosa,85.51,mg/dL,PCBA (EC8+),True
+AST-3,98,sodio,140.2,mmol/L,PCBA (EC8+),True
+AST-3,98,potasio,3.48,mmol/L,PCBA (EC8+),True
+AST-3,98,hematocrito,39.22,%,PCBA (EC8+),True
+AST-3,98,hemoglobina,14.45,g/dL,PCBA (EC8+),True
+AST-3,98,bun,19.06,mg/dL,PCBA (EC8+),True
+AST-3,98,creatinina,1.11,mg/dL,PCBA (EC8+),True
+AST-3,98,leucocitos,8.19,10^3/µL,HemoCue WBC DIFF,True
+AST-3,98,linfocitos,3437.89,cells/µL,HemoCue WBC DIFF,True
+AST-3,105,glucosa,70.38,mg/dL,PCBA (EC8+),True
+AST-3,105,sodio,137.18,mmol/L,PCBA (EC8+),True
+AST-3,105,potasio,3.59,mmol/L,PCBA (EC8+),True
+AST-3,105,hematocrito,41.74,%,PCBA (EC8+),True
+AST-3,105,hemoglobina,13.84,g/dL,PCBA (EC8+),True
+AST-3,105,bun,20.85,mg/dL,PCBA (EC8+),True
+AST-3,105,creatinina,1.11,mg/dL,PCBA (EC8+),True
+AST-3,112,glucosa,86.81,mg/dL,PCBA (EC8+),True
+AST-3,112,sodio,137.25,mmol/L,PCBA (EC8+),True
+AST-3,112,potasio,3.71,mmol/L,PCBA (EC8+),True
+AST-3,112,hematocrito,41.89,%,PCBA (EC8+),True
+AST-3,112,hemoglobina,13.99,g/dL,PCBA (EC8+),True
+AST-3,112,bun,19.07,mg/dL,PCBA (EC8+),True
+AST-3,112,creatinina,1.07,mg/dL,PCBA (EC8+),True
+AST-3,112,leucocitos,8.45,10^3/µL,HemoCue WBC DIFF,True
+AST-3,112,linfocitos,2929.44,cells/µL,HemoCue WBC DIFF,True
+AST-3,119,glucosa,80.95,mg/dL,PCBA (EC8+),True
+AST-3,119,sodio,138.42,mmol/L,PCBA (EC8+),True
+AST-3,119,potasio,3.78,mmol/L,PCBA (EC8+),True
+AST-3,119,hematocrito,43.22,%,PCBA (EC8+),True
+AST-3,119,hemoglobina,14.39,g/dL,PCBA (EC8+),True
+AST-3,119,bun,19.69,mg/dL,PCBA (EC8+),True
+AST-3,119,creatinina,1.09,mg/dL,PCBA (EC8+),True
+AST-3,126,glucosa,71.82,mg/dL,PCBA (EC8+),True
+AST-3,126,sodio,138.0,mmol/L,PCBA (EC8+),True
+AST-3,126,potasio,3.34,mmol/L,PCBA (EC8+),True
+AST-3,126,hematocrito,41.47,%,PCBA (EC8+),True
+AST-3,126,hemoglobina,13.55,g/dL,PCBA (EC8+),True
+AST-3,126,bun,20.96,mg/dL,PCBA (EC8+),True
+AST-3,126,creatinina,0.91,mg/dL,PCBA (EC8+),True
+AST-3,126,leucocitos,8.65,10^3/µL,HemoCue WBC DIFF,True
+AST-3,126,linfocitos,3735.0,cells/µL,HemoCue WBC DIFF,True
+AST-3,133,glucosa,67.97,mg/dL,PCBA (EC8+),True
+AST-3,133,sodio,139.04,mmol/L,PCBA (EC8+),True
+AST-3,133,potasio,3.88,mmol/L,PCBA (EC8+),True
+AST-3,133,hematocrito,41.97,%,PCBA (EC8+),True
+AST-3,133,hemoglobina,14.6,g/dL,PCBA (EC8+),True
+AST-3,133,bun,23.14,mg/dL,PCBA (EC8+),True
+AST-3,133,creatinina,1.04,mg/dL,PCBA (EC8+),True
+AST-3,140,glucosa,81.03,mg/dL,PCBA (EC8+),True
+AST-3,140,sodio,138.14,mmol/L,PCBA (EC8+),True
+AST-3,140,potasio,3.51,mmol/L,PCBA (EC8+),True
+AST-3,140,hematocrito,41.99,%,PCBA (EC8+),True
+AST-3,140,hemoglobina,13.59,g/dL,PCBA (EC8+),True
+AST-3,140,bun,19.87,mg/dL,PCBA (EC8+),True
+AST-3,140,creatinina,1.02,mg/dL,PCBA (EC8+),True
+AST-3,140,leucocitos,10.46,10^3/µL,HemoCue WBC DIFF,True
+AST-3,140,linfocitos,3886.29,cells/µL,HemoCue WBC DIFF,True
+AST-3,147,glucosa,121.84,mg/dL,PCBA (EC8+),True
+AST-3,147,sodio,137.81,mmol/L,PCBA (EC8+),True
+AST-3,147,potasio,3.43,mmol/L,PCBA (EC8+),True
+AST-3,147,hematocrito,41.54,%,PCBA (EC8+),True
+AST-3,147,hemoglobina,13.23,g/dL,PCBA (EC8+),True
+AST-3,147,bun,22.9,mg/dL,PCBA (EC8+),True
+AST-3,147,creatinina,1.11,mg/dL,PCBA (EC8+),True
+AST-3,154,glucosa,79.01,mg/dL,PCBA (EC8+),True
+AST-3,154,sodio,138.78,mmol/L,PCBA (EC8+),True
+AST-3,154,potasio,3.75,mmol/L,PCBA (EC8+),True
+AST-3,154,hematocrito,41.45,%,PCBA (EC8+),True
+AST-3,154,hemoglobina,14.03,g/dL,PCBA (EC8+),True
+AST-3,154,bun,18.46,mg/dL,PCBA (EC8+),True
+AST-3,154,creatinina,1.0,mg/dL,PCBA (EC8+),True
+AST-3,154,leucocitos,9.14,10^3/µL,HemoCue WBC DIFF,True
+AST-3,154,linfocitos,2982.68,cells/µL,HemoCue WBC DIFF,True
+AST-3,161,glucosa,77.67,mg/dL,PCBA (EC8+),True
+AST-3,161,sodio,140.02,mmol/L,PCBA (EC8+),True
+AST-3,161,potasio,3.61,mmol/L,PCBA (EC8+),True
+AST-3,161,hematocrito,41.58,%,PCBA (EC8+),True
+AST-3,161,hemoglobina,12.96,g/dL,PCBA (EC8+),True
+AST-3,161,bun,17.47,mg/dL,PCBA (EC8+),True
+AST-3,161,creatinina,0.97,mg/dL,PCBA (EC8+),True
+AST-3,168,glucosa,72.06,mg/dL,PCBA (EC8+),True
+AST-3,168,sodio,137.82,mmol/L,PCBA (EC8+),True
+AST-3,168,potasio,3.34,mmol/L,PCBA (EC8+),True
+AST-3,168,hematocrito,44.28,%,PCBA (EC8+),True
+AST-3,168,hemoglobina,13.83,g/dL,PCBA (EC8+),True
+AST-3,168,bun,18.78,mg/dL,PCBA (EC8+),True
+AST-3,168,creatinina,1.07,mg/dL,PCBA (EC8+),True
+AST-3,168,leucocitos,9.21,10^3/µL,HemoCue WBC DIFF,True
+AST-3,168,linfocitos,3549.16,cells/µL,HemoCue WBC DIFF,True
+AST-3,175,glucosa,71.66,mg/dL,PCBA (EC8+),True
+AST-3,175,sodio,138.26,mmol/L,PCBA (EC8+),True
+AST-3,175,potasio,3.6,mmol/L,PCBA (EC8+),True
+AST-3,175,hematocrito,42.91,%,PCBA (EC8+),True
+AST-3,175,hemoglobina,13.97,g/dL,PCBA (EC8+),True
+AST-3,175,bun,21.21,mg/dL,PCBA (EC8+),True
+AST-3,175,creatinina,1.04,mg/dL,PCBA (EC8+),True
+AST-3,182,glucosa,78.74,mg/dL,PCBA (EC8+),True
+AST-3,182,sodio,138.05,mmol/L,PCBA (EC8+),True
+AST-3,182,potasio,3.36,mmol/L,PCBA (EC8+),True
+AST-3,182,hematocrito,42.39,%,PCBA (EC8+),True
+AST-3,182,hemoglobina,14.27,g/dL,PCBA (EC8+),True
+AST-3,182,bun,22.51,mg/dL,PCBA (EC8+),True
+AST-3,182,creatinina,0.98,mg/dL,PCBA (EC8+),True
+AST-3,182,leucocitos,8.39,10^3/µL,HemoCue WBC DIFF,True
+AST-3,182,linfocitos,3272.99,cells/µL,HemoCue WBC DIFF,True
+AST-3,189,glucosa,68.84,mg/dL,PCBA (EC8+),True
+AST-3,189,sodio,139.76,mmol/L,PCBA (EC8+),True
+AST-3,189,potasio,3.58,mmol/L,PCBA (EC8+),True
+AST-3,189,hematocrito,43.95,%,PCBA (EC8+),True
+AST-3,189,hemoglobina,12.97,g/dL,PCBA (EC8+),True
+AST-3,189,bun,19.64,mg/dL,PCBA (EC8+),True
+AST-3,189,creatinina,0.96,mg/dL,PCBA (EC8+),True
+AST-3,196,glucosa,82.45,mg/dL,PCBA (EC8+),True
+AST-3,196,sodio,138.17,mmol/L,PCBA (EC8+),True
+AST-3,196,potasio,3.23,mmol/L,PCBA (EC8+),True
+AST-3,196,hematocrito,41.89,%,PCBA (EC8+),True
+AST-3,196,hemoglobina,13.49,g/dL,PCBA (EC8+),True
+AST-3,196,bun,22.47,mg/dL,PCBA (EC8+),True
+AST-3,196,creatinina,1.13,mg/dL,PCBA (EC8+),True
+AST-3,196,leucocitos,7.96,10^3/µL,HemoCue WBC DIFF,True
+AST-3,196,linfocitos,4141.9,cells/µL,HemoCue WBC DIFF,True
+AST-3,203,glucosa,69.38,mg/dL,PCBA (EC8+),True
+AST-3,203,sodio,137.64,mmol/L,PCBA (EC8+),True
+AST-3,203,potasio,3.77,mmol/L,PCBA (EC8+),True
+AST-3,203,hematocrito,43.16,%,PCBA (EC8+),True
+AST-3,203,hemoglobina,14.35,g/dL,PCBA (EC8+),True
+AST-3,203,bun,20.44,mg/dL,PCBA (EC8+),True
+AST-3,203,creatinina,1.05,mg/dL,PCBA (EC8+),True
+AST-4,-60,glucosa,92.31,mg/dL,PCBA (EC8+),True
+AST-4,-60,sodio,141.52,mmol/L,PCBA (EC8+),True
+AST-4,-60,potasio,4.43,mmol/L,PCBA (EC8+),True
+AST-4,-60,hematocrito,49.26,%,PCBA (EC8+),True
+AST-4,-60,hemoglobina,16.4,g/dL,PCBA (EC8+),True
+AST-4,-60,bun,21.37,mg/dL,PCBA (EC8+),True
+AST-4,-60,creatinina,1.11,mg/dL,PCBA (EC8+),True
+AST-4,-60,leucocitos,6.95,10^3/µL,HemoCue WBC DIFF,True
+AST-4,-60,linfocitos,2162.54,cells/µL,HemoCue WBC DIFF,True
+AST-4,-50,glucosa,71.92,mg/dL,PCBA (EC8+),True
+AST-4,-50,sodio,140.96,mmol/L,PCBA (EC8+),True
+AST-4,-50,potasio,4.02,mmol/L,PCBA (EC8+),True
+AST-4,-50,hematocrito,48.66,%,PCBA (EC8+),True
+AST-4,-50,hemoglobina,16.41,g/dL,PCBA (EC8+),True
+AST-4,-50,bun,20.45,mg/dL,PCBA (EC8+),True
+AST-4,-50,creatinina,1.1,mg/dL,PCBA (EC8+),True
+AST-4,-50,leucocitos,9.27,10^3/µL,HemoCue WBC DIFF,True
+AST-4,-50,linfocitos,2192.42,cells/µL,HemoCue WBC DIFF,True
+AST-4,-40,glucosa,84.8,mg/dL,PCBA (EC8+),True
+AST-4,-40,sodio,139.25,mmol/L,PCBA (EC8+),True
+AST-4,-40,potasio,4.29,mmol/L,PCBA (EC8+),True
+AST-4,-40,hematocrito,48.9,%,PCBA (EC8+),True
+AST-4,-40,hemoglobina,16.84,g/dL,PCBA (EC8+),True
+AST-4,-40,bun,18.77,mg/dL,PCBA (EC8+),True
+AST-4,-40,creatinina,1.11,mg/dL,PCBA (EC8+),True
+AST-4,-40,leucocitos,7.92,10^3/µL,HemoCue WBC DIFF,True
+AST-4,-40,linfocitos,1731.11,cells/µL,HemoCue WBC DIFF,True
+AST-4,-30,glucosa,68.41,mg/dL,PCBA (EC8+),True
+AST-4,-30,sodio,141.11,mmol/L,PCBA (EC8+),True
+AST-4,-30,potasio,4.2,mmol/L,PCBA (EC8+),True
+AST-4,-30,hematocrito,48.21,%,PCBA (EC8+),True
+AST-4,-30,hemoglobina,16.31,g/dL,PCBA (EC8+),True
+AST-4,-30,bun,20.51,mg/dL,PCBA (EC8+),True
+AST-4,-30,creatinina,1.14,mg/dL,PCBA (EC8+),True
+AST-4,-30,leucocitos,8.04,10^3/µL,HemoCue WBC DIFF,True
+AST-4,-30,linfocitos,2208.73,cells/µL,HemoCue WBC DIFF,True
+AST-4,-20,glucosa,69.77,mg/dL,PCBA (EC8+),True
+AST-4,-20,sodio,139.62,mmol/L,PCBA (EC8+),True
+AST-4,-20,potasio,4.16,mmol/L,PCBA (EC8+),True
+AST-4,-20,hematocrito,49.21,%,PCBA (EC8+),True
+AST-4,-20,hemoglobina,17.77,g/dL,PCBA (EC8+),True
+AST-4,-20,bun,17.42,mg/dL,PCBA (EC8+),True
+AST-4,-20,creatinina,1.14,mg/dL,PCBA (EC8+),True
+AST-4,-20,leucocitos,8.62,10^3/µL,HemoCue WBC DIFF,True
+AST-4,-20,linfocitos,2091.15,cells/µL,HemoCue WBC DIFF,True
+AST-4,-10,glucosa,78.7,mg/dL,PCBA (EC8+),True
+AST-4,-10,sodio,137.41,mmol/L,PCBA (EC8+),True
+AST-4,-10,potasio,4.0,mmol/L,PCBA (EC8+),True
+AST-4,-10,hematocrito,52.21,%,PCBA (EC8+),True
+AST-4,-10,hemoglobina,17.48,g/dL,PCBA (EC8+),True
+AST-4,-10,bun,22.78,mg/dL,PCBA (EC8+),True
+AST-4,-10,creatinina,1.0,mg/dL,PCBA (EC8+),True
+AST-4,-10,leucocitos,8.38,10^3/µL,HemoCue WBC DIFF,True
+AST-4,-10,linfocitos,1992.28,cells/µL,HemoCue WBC DIFF,True
+AST-4,0,glucosa,82.6,mg/dL,PCBA (EC8+),True
+AST-4,0,sodio,140.22,mmol/L,PCBA (EC8+),True
+AST-4,0,potasio,4.31,mmol/L,PCBA (EC8+),True
+AST-4,0,hematocrito,48.12,%,PCBA (EC8+),True
+AST-4,0,hemoglobina,16.08,g/dL,PCBA (EC8+),True
+AST-4,0,bun,21.74,mg/dL,PCBA (EC8+),True
+AST-4,0,creatinina,1.19,mg/dL,PCBA (EC8+),True
+AST-4,0,leucocitos,8.48,10^3/µL,HemoCue WBC DIFF,True
+AST-4,0,linfocitos,1817.95,cells/µL,HemoCue WBC DIFF,True
+AST-4,7,glucosa,82.8,mg/dL,PCBA (EC8+),True
+AST-4,7,sodio,138.46,mmol/L,PCBA (EC8+),True
+AST-4,7,potasio,3.87,mmol/L,PCBA (EC8+),True
+AST-4,7,hematocrito,49.52,%,PCBA (EC8+),True
+AST-4,7,hemoglobina,19.13,g/dL,PCBA (EC8+),True
+AST-4,7,bun,19.83,mg/dL,PCBA (EC8+),True
+AST-4,7,creatinina,1.09,mg/dL,PCBA (EC8+),True
+AST-4,14,glucosa,80.85,mg/dL,PCBA (EC8+),True
+AST-4,14,sodio,140.21,mmol/L,PCBA (EC8+),True
+AST-4,14,potasio,4.09,mmol/L,PCBA (EC8+),True
+AST-4,14,hematocrito,55.3,%,PCBA (EC8+),True
+AST-4,14,hemoglobina,16.95,g/dL,PCBA (EC8+),True
+AST-4,14,bun,18.52,mg/dL,PCBA (EC8+),True
+AST-4,14,creatinina,1.05,mg/dL,PCBA (EC8+),True
+AST-4,14,leucocitos,7.17,10^3/µL,HemoCue WBC DIFF,True
+AST-4,14,linfocitos,1859.07,cells/µL,HemoCue WBC DIFF,True
+AST-4,21,glucosa,95.59,mg/dL,PCBA (EC8+),True
+AST-4,21,sodio,138.88,mmol/L,PCBA (EC8+),True
+AST-4,21,potasio,4.0,mmol/L,PCBA (EC8+),True
+AST-4,21,hematocrito,54.23,%,PCBA (EC8+),True
+AST-4,21,hemoglobina,19.46,g/dL,PCBA (EC8+),True
+AST-4,21,bun,19.5,mg/dL,PCBA (EC8+),True
+AST-4,21,creatinina,0.98,mg/dL,PCBA (EC8+),True
+AST-4,28,glucosa,85.03,mg/dL,PCBA (EC8+),True
+AST-4,28,sodio,140.59,mmol/L,PCBA (EC8+),True
+AST-4,28,potasio,3.93,mmol/L,PCBA (EC8+),True
+AST-4,28,hematocrito,49.94,%,PCBA (EC8+),True
+AST-4,28,hemoglobina,18.53,g/dL,PCBA (EC8+),True
+AST-4,28,bun,20.26,mg/dL,PCBA (EC8+),True
+AST-4,28,creatinina,1.21,mg/dL,PCBA (EC8+),True
+AST-4,28,leucocitos,7.42,10^3/µL,HemoCue WBC DIFF,True
+AST-4,28,linfocitos,1742.29,cells/µL,HemoCue WBC DIFF,True
+AST-4,35,glucosa,89.48,mg/dL,PCBA (EC8+),True
+AST-4,35,sodio,139.33,mmol/L,PCBA (EC8+),True
+AST-4,35,potasio,3.58,mmol/L,PCBA (EC8+),True
+AST-4,35,hematocrito,50.71,%,PCBA (EC8+),True
+AST-4,35,hemoglobina,16.54,g/dL,PCBA (EC8+),True
+AST-4,35,bun,21.82,mg/dL,PCBA (EC8+),True
+AST-4,35,creatinina,1.24,mg/dL,PCBA (EC8+),True
+AST-4,42,glucosa,85.5,mg/dL,PCBA (EC8+),True
+AST-4,42,sodio,138.38,mmol/L,PCBA (EC8+),True
+AST-4,42,potasio,4.15,mmol/L,PCBA (EC8+),True
+AST-4,42,hematocrito,49.0,%,PCBA (EC8+),True
+AST-4,42,hemoglobina,16.97,g/dL,PCBA (EC8+),True
+AST-4,42,bun,18.42,mg/dL,PCBA (EC8+),True
+AST-4,42,creatinina,1.09,mg/dL,PCBA (EC8+),True
+AST-4,42,leucocitos,7.49,10^3/µL,HemoCue WBC DIFF,True
+AST-4,42,linfocitos,1581.07,cells/µL,HemoCue WBC DIFF,True
+AST-4,49,glucosa,75.42,mg/dL,PCBA (EC8+),True
+AST-4,49,sodio,141.38,mmol/L,PCBA (EC8+),True
+AST-4,49,potasio,4.0,mmol/L,PCBA (EC8+),True
+AST-4,49,hematocrito,50.24,%,PCBA (EC8+),True
+AST-4,49,hemoglobina,17.6,g/dL,PCBA (EC8+),True
+AST-4,49,bun,20.46,mg/dL,PCBA (EC8+),True
+AST-4,49,creatinina,1.15,mg/dL,PCBA (EC8+),True
+AST-4,56,glucosa,90.77,mg/dL,PCBA (EC8+),True
+AST-4,56,sodio,140.04,mmol/L,PCBA (EC8+),True
+AST-4,56,potasio,3.89,mmol/L,PCBA (EC8+),True
+AST-4,56,hematocrito,52.64,%,PCBA (EC8+),True
+AST-4,56,hemoglobina,17.62,g/dL,PCBA (EC8+),True
+AST-4,56,bun,19.67,mg/dL,PCBA (EC8+),True
+AST-4,56,creatinina,1.1,mg/dL,PCBA (EC8+),True
+AST-4,56,leucocitos,6.76,10^3/µL,HemoCue WBC DIFF,True
+AST-4,56,linfocitos,1865.55,cells/µL,HemoCue WBC DIFF,True
+AST-4,63,glucosa,73.06,mg/dL,PCBA (EC8+),True
+AST-4,63,sodio,139.86,mmol/L,PCBA (EC8+),True
+AST-4,63,potasio,4.31,mmol/L,PCBA (EC8+),True
+AST-4,63,hematocrito,51.81,%,PCBA (EC8+),True
+AST-4,63,hemoglobina,16.62,g/dL,PCBA (EC8+),True
+AST-4,63,bun,19.75,mg/dL,PCBA (EC8+),True
+AST-4,63,creatinina,1.13,mg/dL,PCBA (EC8+),True
+AST-4,70,glucosa,86.98,mg/dL,PCBA (EC8+),True
+AST-4,70,sodio,139.7,mmol/L,PCBA (EC8+),True
+AST-4,70,potasio,4.04,mmol/L,PCBA (EC8+),True
+AST-4,70,hematocrito,49.19,%,PCBA (EC8+),True
+AST-4,70,hemoglobina,15.74,g/dL,PCBA (EC8+),True
+AST-4,70,bun,18.71,mg/dL,PCBA (EC8+),True
+AST-4,70,creatinina,1.12,mg/dL,PCBA (EC8+),True
+AST-4,70,leucocitos,7.59,10^3/µL,HemoCue WBC DIFF,True
+AST-4,70,linfocitos,1938.37,cells/µL,HemoCue WBC DIFF,True
+AST-4,77,glucosa,76.4,mg/dL,PCBA (EC8+),True
+AST-4,77,sodio,138.6,mmol/L,PCBA (EC8+),True
+AST-4,77,potasio,4.26,mmol/L,PCBA (EC8+),True
+AST-4,77,hematocrito,50.28,%,PCBA (EC8+),True
+AST-4,77,hemoglobina,16.06,g/dL,PCBA (EC8+),True
+AST-4,77,bun,21.81,mg/dL,PCBA (EC8+),True
+AST-4,77,creatinina,1.13,mg/dL,PCBA (EC8+),True
+AST-4,84,glucosa,77.99,mg/dL,PCBA (EC8+),True
+AST-4,84,sodio,141.38,mmol/L,PCBA (EC8+),True
+AST-4,84,potasio,4.4,mmol/L,PCBA (EC8+),True
+AST-4,84,hematocrito,48.51,%,PCBA (EC8+),True
+AST-4,84,hemoglobina,16.81,g/dL,PCBA (EC8+),True
+AST-4,84,bun,21.05,mg/dL,PCBA (EC8+),True
+AST-4,84,creatinina,1.12,mg/dL,PCBA (EC8+),True
+AST-4,84,leucocitos,7.54,10^3/µL,HemoCue WBC DIFF,True
+AST-4,84,linfocitos,1939.13,cells/µL,HemoCue WBC DIFF,True
+AST-4,91,glucosa,80.34,mg/dL,PCBA (EC8+),True
+AST-4,91,sodio,139.2,mmol/L,PCBA (EC8+),True
+AST-4,91,potasio,3.83,mmol/L,PCBA (EC8+),True
+AST-4,91,hematocrito,49.95,%,PCBA (EC8+),True
+AST-4,91,hemoglobina,17.06,g/dL,PCBA (EC8+),True
+AST-4,91,bun,19.45,mg/dL,PCBA (EC8+),True
+AST-4,91,creatinina,1.11,mg/dL,PCBA (EC8+),True
+AST-4,98,glucosa,81.97,mg/dL,PCBA (EC8+),True
+AST-4,98,sodio,140.56,mmol/L,PCBA (EC8+),True
+AST-4,98,potasio,3.87,mmol/L,PCBA (EC8+),True
+AST-4,98,hematocrito,50.41,%,PCBA (EC8+),True
+AST-4,98,hemoglobina,17.08,g/dL,PCBA (EC8+),True
+AST-4,98,bun,20.98,mg/dL,PCBA (EC8+),True
+AST-4,98,creatinina,1.25,mg/dL,PCBA (EC8+),True
+AST-4,98,leucocitos,8.08,10^3/µL,HemoCue WBC DIFF,True
+AST-4,98,linfocitos,1633.93,cells/µL,HemoCue WBC DIFF,True
+AST-4,105,glucosa,91.26,mg/dL,PCBA (EC8+),True
+AST-4,105,sodio,140.55,mmol/L,PCBA (EC8+),True
+AST-4,105,potasio,4.12,mmol/L,PCBA (EC8+),True
+AST-4,105,hematocrito,50.01,%,PCBA (EC8+),True
+AST-4,105,hemoglobina,16.77,g/dL,PCBA (EC8+),True
+AST-4,105,bun,18.42,mg/dL,PCBA (EC8+),True
+AST-4,105,creatinina,1.1,mg/dL,PCBA (EC8+),True
+AST-4,112,glucosa,84.96,mg/dL,PCBA (EC8+),True
+AST-4,112,sodio,138.47,mmol/L,PCBA (EC8+),True
+AST-4,112,potasio,3.92,mmol/L,PCBA (EC8+),True
+AST-4,112,hematocrito,48.3,%,PCBA (EC8+),True
+AST-4,112,hemoglobina,17.81,g/dL,PCBA (EC8+),True
+AST-4,112,bun,21.09,mg/dL,PCBA (EC8+),True
+AST-4,112,creatinina,1.16,mg/dL,PCBA (EC8+),True
+AST-4,112,leucocitos,7.6,10^3/µL,HemoCue WBC DIFF,True
+AST-4,112,linfocitos,1951.29,cells/µL,HemoCue WBC DIFF,True
+AST-4,119,glucosa,83.99,mg/dL,PCBA (EC8+),True
+AST-4,119,sodio,140.73,mmol/L,PCBA (EC8+),True
+AST-4,119,potasio,4.31,mmol/L,PCBA (EC8+),True
+AST-4,119,hematocrito,48.28,%,PCBA (EC8+),True
+AST-4,119,hemoglobina,17.39,g/dL,PCBA (EC8+),True
+AST-4,119,bun,19.25,mg/dL,PCBA (EC8+),True
+AST-4,119,creatinina,1.22,mg/dL,PCBA (EC8+),True
+AST-4,126,glucosa,82.16,mg/dL,PCBA (EC8+),True
+AST-4,126,sodio,140.7,mmol/L,PCBA (EC8+),True
+AST-4,126,potasio,3.96,mmol/L,PCBA (EC8+),True
+AST-4,126,hematocrito,52.15,%,PCBA (EC8+),True
+AST-4,126,hemoglobina,16.77,g/dL,PCBA (EC8+),True
+AST-4,126,bun,20.91,mg/dL,PCBA (EC8+),True
+AST-4,126,creatinina,1.09,mg/dL,PCBA (EC8+),True
+AST-4,126,leucocitos,6.52,10^3/µL,HemoCue WBC DIFF,True
+AST-4,126,linfocitos,1746.06,cells/µL,HemoCue WBC DIFF,True
+AST-4,133,glucosa,95.29,mg/dL,PCBA (EC8+),True
+AST-4,133,sodio,140.56,mmol/L,PCBA (EC8+),True
+AST-4,133,potasio,3.97,mmol/L,PCBA (EC8+),True
+AST-4,133,hematocrito,49.77,%,PCBA (EC8+),True
+AST-4,133,hemoglobina,16.92,g/dL,PCBA (EC8+),True
+AST-4,133,bun,20.71,mg/dL,PCBA (EC8+),True
+AST-4,133,creatinina,1.1,mg/dL,PCBA (EC8+),True
+AST-4,140,glucosa,76.22,mg/dL,PCBA (EC8+),True
+AST-4,140,sodio,140.16,mmol/L,PCBA (EC8+),True
+AST-4,140,potasio,3.66,mmol/L,PCBA (EC8+),True
+AST-4,140,hematocrito,51.17,%,PCBA (EC8+),True
+AST-4,140,hemoglobina,16.98,g/dL,PCBA (EC8+),True
+AST-4,140,bun,20.24,mg/dL,PCBA (EC8+),True
+AST-4,140,creatinina,1.2,mg/dL,PCBA (EC8+),True
+AST-4,140,leucocitos,6.87,10^3/µL,HemoCue WBC DIFF,True
+AST-4,140,linfocitos,1900.81,cells/µL,HemoCue WBC DIFF,True
+AST-4,147,glucosa,91.67,mg/dL,PCBA (EC8+),True
+AST-4,147,sodio,139.05,mmol/L,PCBA (EC8+),True
+AST-4,147,potasio,3.71,mmol/L,PCBA (EC8+),True
+AST-4,147,hematocrito,50.51,%,PCBA (EC8+),True
+AST-4,147,hemoglobina,16.96,g/dL,PCBA (EC8+),True
+AST-4,147,bun,19.27,mg/dL,PCBA (EC8+),True
+AST-4,147,creatinina,1.19,mg/dL,PCBA (EC8+),True
+AST-4,154,glucosa,89.06,mg/dL,PCBA (EC8+),True
+AST-4,154,sodio,139.21,mmol/L,PCBA (EC8+),True
+AST-4,154,potasio,4.1,mmol/L,PCBA (EC8+),True
+AST-4,154,hematocrito,48.58,%,PCBA (EC8+),True
+AST-4,154,hemoglobina,15.54,g/dL,PCBA (EC8+),True
+AST-4,154,bun,21.32,mg/dL,PCBA (EC8+),True
+AST-4,154,creatinina,1.14,mg/dL,PCBA (EC8+),True
+AST-4,154,leucocitos,7.34,10^3/µL,HemoCue WBC DIFF,True
+AST-4,154,linfocitos,2012.68,cells/µL,HemoCue WBC DIFF,True
+AST-4,161,glucosa,76.44,mg/dL,PCBA (EC8+),True
+AST-4,161,sodio,138.88,mmol/L,PCBA (EC8+),True
+AST-4,161,potasio,3.74,mmol/L,PCBA (EC8+),True
+AST-4,161,hematocrito,51.3,%,PCBA (EC8+),True
+AST-4,161,hemoglobina,16.74,g/dL,PCBA (EC8+),True
+AST-4,161,bun,17.79,mg/dL,PCBA (EC8+),True
+AST-4,161,creatinina,1.0,mg/dL,PCBA (EC8+),True
+AST-4,168,glucosa,93.17,mg/dL,PCBA (EC8+),True
+AST-4,168,sodio,138.57,mmol/L,PCBA (EC8+),True
+AST-4,168,potasio,4.05,mmol/L,PCBA (EC8+),True
+AST-4,168,hematocrito,51.42,%,PCBA (EC8+),True
+AST-4,168,hemoglobina,17.46,g/dL,PCBA (EC8+),True
+AST-4,168,bun,21.43,mg/dL,PCBA (EC8+),True
+AST-4,168,creatinina,1.13,mg/dL,PCBA (EC8+),True
+AST-4,168,leucocitos,7.34,10^3/µL,HemoCue WBC DIFF,True
+AST-4,168,linfocitos,1865.47,cells/µL,HemoCue WBC DIFF,True
+AST-4,175,glucosa,76.35,mg/dL,PCBA (EC8+),True
+AST-4,175,sodio,140.49,mmol/L,PCBA (EC8+),True
+AST-4,175,potasio,4.29,mmol/L,PCBA (EC8+),True
+AST-4,175,hematocrito,50.25,%,PCBA (EC8+),True
+AST-4,175,hemoglobina,16.73,g/dL,PCBA (EC8+),True
+AST-4,175,bun,17.76,mg/dL,PCBA (EC8+),True
+AST-4,175,creatinina,1.22,mg/dL,PCBA (EC8+),True
+AST-4,182,glucosa,82.07,mg/dL,PCBA (EC8+),True
+AST-4,182,sodio,143.28,mmol/L,PCBA (EC8+),True
+AST-4,182,potasio,4.46,mmol/L,PCBA (EC8+),True
+AST-4,182,hematocrito,49.89,%,PCBA (EC8+),True
+AST-4,182,hemoglobina,17.26,g/dL,PCBA (EC8+),True
+AST-4,182,bun,18.23,mg/dL,PCBA (EC8+),True
+AST-4,182,creatinina,1.15,mg/dL,PCBA (EC8+),True
+AST-4,182,leucocitos,7.63,10^3/µL,HemoCue WBC DIFF,True
+AST-4,182,linfocitos,1817.9,cells/µL,HemoCue WBC DIFF,True
+AST-4,189,glucosa,79.39,mg/dL,PCBA (EC8+),True
+AST-4,189,sodio,137.33,mmol/L,PCBA (EC8+),True
+AST-4,189,potasio,3.9,mmol/L,PCBA (EC8+),True
+AST-4,189,hematocrito,49.02,%,PCBA (EC8+),True
+AST-4,189,hemoglobina,16.85,g/dL,PCBA (EC8+),True
+AST-4,189,bun,21.83,mg/dL,PCBA (EC8+),True
+AST-4,189,creatinina,1.14,mg/dL,PCBA (EC8+),True
+AST-4,196,glucosa,77.31,mg/dL,PCBA (EC8+),True
+AST-4,196,sodio,139.71,mmol/L,PCBA (EC8+),True
+AST-4,196,potasio,4.21,mmol/L,PCBA (EC8+),True
+AST-4,196,hematocrito,48.0,%,PCBA (EC8+),True
+AST-4,196,hemoglobina,17.77,g/dL,PCBA (EC8+),True
+AST-4,196,bun,21.24,mg/dL,PCBA (EC8+),True
+AST-4,196,creatinina,1.07,mg/dL,PCBA (EC8+),True
+AST-4,196,leucocitos,7.75,10^3/µL,HemoCue WBC DIFF,True
+AST-4,196,linfocitos,1922.88,cells/µL,HemoCue WBC DIFF,True
+AST-4,203,glucosa,76.81,mg/dL,PCBA (EC8+),True
+AST-4,203,sodio,142.2,mmol/L,PCBA (EC8+),True
+AST-4,203,potasio,3.88,mmol/L,PCBA (EC8+),True
+AST-4,203,hematocrito,50.94,%,PCBA (EC8+),True
+AST-4,203,hemoglobina,16.3,g/dL,PCBA (EC8+),True
+AST-4,203,bun,19.8,mg/dL,PCBA (EC8+),True
+AST-4,203,creatinina,1.23,mg/dL,PCBA (EC8+),True
